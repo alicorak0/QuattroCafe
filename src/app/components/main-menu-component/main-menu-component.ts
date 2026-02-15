@@ -11,6 +11,9 @@ declare global {
   styleUrls: ['./main-menu-component.css']
 })
 
+
+
+
 export class MainMenuComponent implements AfterViewInit {
 
   @ViewChild('bgVideo')
@@ -36,18 +39,29 @@ export class MainMenuComponent implements AfterViewInit {
     }
 
     // ✅ INSTAGRAM SCRIPT LOAD
-    const script = document.createElement('script');
-    script.src = 'https://www.instagram.com/embed.js';
-    script.async = true;
+    // const script = document.createElement('script');
+    // script.src = 'https://www.instagram.com/embed.js';
+    // script.async = true;
 
-    script.onload = () => {
-      const ig = (window as any).instgrm;
-      if (ig) {
-        ig.Embeds.process();
+    // script.onload = () => {
+    //   const ig = (window as any).instgrm;
+    //   if (ig) {
+    //     ig.Embeds.process();
+    //   }
+    // };
+
+
+      setTimeout(() => {
+      if (window['instgrm']) {
+        window['instgrm'].Embeds.process();
       }
-    };
+    }, 300);
 
-    document.body.appendChild(script);
+    
+
+    // document.body.appendChild(script);
+
+    
   }
 
 
