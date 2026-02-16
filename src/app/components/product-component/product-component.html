@@ -1,0 +1,75 @@
+<div class="menu-wrapper">
+  <aside class="sidebar">
+    <ul>
+      <li>
+        <button [routerLink]="['/menu', 'ızgaralar']" class="sidebar-btn" [class.active]="activeKey === 'ızgaralar'">
+          Izgaralar
+        </button>
+      </li>
+
+      <li>
+        <button [routerLink]="['/menu', 'dönerler']" class="sidebar-btn" [class.active]="activeKey === 'dönerler'">
+          Dönerler
+        </button>
+      </li>
+
+      
+      <li>
+        <button [routerLink]="['/menu', 'çorbalar']" class="sidebar-btn"
+          [class.active]="activeKey === 'çorbalar'">
+          Çorbalar
+        </button>
+      </li>
+
+      <li>
+        <button [routerLink]="['/menu', 'mezeler']" class="sidebar-btn" [class.active]="activeKey === 'mezeler'">
+          Mezeler
+        </button>
+      </li>
+
+      <li>
+        <button [routerLink]="['/menu', 'aperatifler']" class="sidebar-btn"
+          [class.active]="activeKey === 'aperatifler'">
+          Aperatifler
+        </button>
+      </li>
+
+      <li>
+        <button [routerLink]="['/menu', 'içecekler']" class="sidebar-btn" [class.active]="activeKey === 'içecekler'">
+          İçecekler
+        </button>
+      </li>
+
+
+      <li>
+        <button [routerLink]="['/menu', 'çiğ-ürünler']" class="sidebar-btn"
+          [class.active]="activeKey === 'çiğ-ürünler'">
+          Çiğ Ürünler
+        </button>
+      </li>
+
+    </ul>
+  </aside>
+
+
+
+  <!-- Main Content -->
+  <main class="menu-content">
+    <div class="category-title">
+      <!-- categoryName mapping ile -->
+      <h2>{{ categoryNameMap[activeKey] }}</h2>
+    </div>
+
+    <div class="products-grid">
+      <div class="product-card" *ngFor="let product of products">
+        <img [src]="'/' + product.image" alt="{{ product.productName }}">
+        <h3 class="product-title">{{ product.productName }}</h3>
+        <p class="product-description">{{ product.description }}</p>
+        <div class="product-footer">
+          <span class="product-price">₺{{ product.price }}</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</div>
