@@ -6,32 +6,30 @@ import { MenuComponent } from "./components/menu-component/menu-component";
 import { ProductComponent } from "./components/product-component/product-component";
 import { CategoriesComponent } from "./components/categories-component/categories-component";
 
-const routes: Routes = [
- 
-{
+export const routes: Routes = [
+  {
     path: '',
-    component: MainLayoutComponent,
+    component: MainLayoutComponent, // 🔥 EN ÜST LAYOUT
+    children: [
 
-    children:[
-      {path: '', component:MainMenuComponent}
-
-    ]
-},
-
- {
-    path: 'menu', component: MenuComponent, children: [
+      // ana sayfa
       {
         path: '',
-        component: CategoriesComponent   // 👈 /menu açılınca burası render olur
+        component: MainMenuComponent
       },
+
+      // menu sayfası
       {
-        path:':name',component: ProductComponent   // 👈 /menu/burgers, /menu/snacks vs açılınca burası render olu  r
+        path: 'menu',
+        component: MenuComponent,
+        children: [
+          { path: '', component: CategoriesComponent },
+          { path: ':name', component: ProductComponent }
+        ]
       }
+
     ]
   }
-
-
-
 ];
 
 @NgModule({
