@@ -5,13 +5,24 @@
             <img src="/Quattro-logo.png" alt="">
         </div>
 
-        <nav class="nav">
-            <a routerLink="/">ANA SAYFA</a>
-            <a routerLink="/menu">MENU</a>
-            <a routerLink="/blog">BLOG</a>
-            <a routerLink="/iletisim">İLETİŞİM</a>
-        </nav>
 
+        <!-- HAMBURGER MENU ICON -->
+        <div class="hamburger" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        
+        <nav class="nav" [class.open]="isMenuOpen">
+            <div class="nav-item-container">
+                <a routerLink="/" (click)="closeMenu()">ANA SAYFA</a>
+                <a routerLink="/menu" (click)="closeMenu()">MENU</a>
+                <a routerLink="/blog" (click)="closeMenu()">BLOG</a>
+                <a routerLink="/iletisim" (click)="closeMenu()">İLETİŞİM</a>
+            </div>
+        </nav>
+        
     </div>
-    
+
 </header>

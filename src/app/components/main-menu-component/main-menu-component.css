@@ -3,6 +3,7 @@
     height: 100vh;
     overflow: hidden;
     font-family: "Josefin Sans", sans-serif;
+    width: 100%;
 }
 
 
@@ -55,9 +56,9 @@
     font-size: 50px;
 }
 
-.desc {
+/* .desc {
     max-width: 600px;
-}
+} */
 
 /* BUTTONS */
 .buttons {
@@ -69,6 +70,10 @@
     margin: 0 10px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c8a46b;
 }
 
 .primary {
@@ -89,46 +94,51 @@
     background-color: #c8a46b;
 }
 
-.gold-strip{
-  overflow:hidden;
-  padding:25px 0;
+.gold-strip {
+    overflow: hidden;
+    padding: 25px 0;
 }
 
-.marquee{
-  white-space:nowrap;
+.marquee {
+    white-space: nowrap;
 }
 
-.marquee span{
-  display:inline-block;
-  padding-left:100%;
-  animation:scrollText 18s linear infinite;
-  font-size:32px;
-  letter-spacing:4px;
-  color:#fff;
-  font-weight:500;
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollText 18s linear infinite;
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 500;
 }
 
-@keyframes scrollText{
-  from { transform:translateX(0); }
-  to { transform:translateX(-100%); }
+@keyframes scrollText {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
 
-.gold-strip{
-  position:relative;
-  padding:150px 0;
-  overflow:hidden;
+.gold-strip {
+    position: relative;
+    padding: 150px 0;
+    overflow: hidden;
 }
 
-.gold-strip::before{
-  content:"QUATTRO";
-  position:absolute;
-  font-size:180px;
-  font-weight:700;
-  color:rgba(255,255,255,0.08);
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  letter-spacing:15px;
+.gold-strip::before {
+    content: "QUATTRO";
+    position: absolute;
+    font-size: 180px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.08);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 15px;
 }
 
 
@@ -178,6 +188,7 @@
 .right h2 {
     font-size: 20px;
     font-weight: 350;
+    text-align: justify;
 }
 
 .gallery-section {
@@ -214,4 +225,213 @@
 
 .gallery-card:hover img {
     transform: scale(1.02);
+}
+
+@media (max-width:600px) {
+
+    .hero-section {
+        position: relative;
+        height: 70vh;
+        overflow: hidden;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+
+    /* VIDEO */
+    .hero-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-video video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .overlay {
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .hero-content {
+        width: 65%;
+        position: absolute;
+        bottom: 50px;
+        transform: translateX(-50%);
+        z-index: 2000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-style: italic;
+        color: #d6b37a;
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    .hero-content h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 29px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+        margin: 0 10px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .parallax-wrapper {
+        font-family: "Josefin Sans", sans-serif;
+        min-height: 30vh;
+        background-image: url('/black-background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parallax-section .content {
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 40px;
+    }
+
+    .parallax-section .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parallax-section .right {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left img {
+        width: 100px;
+        height: auto;
+    }
+
+    .left h1 {
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    .right h2 {
+        font-size: 18px;
+        font-weight: 350;
+        text-align: justify;
+    }
+
+
+    .background {
+        width: 100%;
+        height: 200px;
+        background-color: #c8a46b;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .gold-strip {
+        overflow: hidden;
+        padding: 25px 0;
+    }
+
+    .gold-strip {
+        position: relative;
+        padding: 150px 0;
+        overflow: hidden;
+    }
+
+    .gold-strip::before {
+        content: "QUATTRO";
+        position: absolute;
+        font-size: 50px;
+        top: 53%;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.08);
+        transform: translate(-50%, -50%);
+        letter-spacing: 15px;
+    }
+
+    .marquee {
+        white-space: nowrap;
+    }
+
+    .marquee span {
+        display: inline-block;
+        padding-left: 100%;
+        animation: scrollText 18s linear infinite;
+        font-size: 20px;
+        letter-spacing: 4px;
+        color: #fff;
+        font-weight: 500;
+        top: 50%;
+    }
+
+    .gallery-section {
+        padding: 100px 0;
+        background: transparent;
+    }
+
+    .gallery-grid {
+        margin: 0px 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 0px;
+    }
+
+    .gallery-card {
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+        transition: all .4s ease;
+    }
+
+    .gallery-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform .6s ease;
+    }
+
+    .gallery-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    }
+
+    .gallery-card:hover img {
+        transform: scale(1.02);
+    }
+
+
 }
