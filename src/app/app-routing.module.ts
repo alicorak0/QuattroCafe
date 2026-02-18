@@ -15,13 +15,16 @@ export const routes: Routes = [
       // ana sayfa
       {
         path: '',
-        component: MainMenuComponent
+        component: MainMenuComponent,
+        data: { header: true }
       },
 
       // menu sayfası
       {
         path: 'menu',
         component: MenuComponent,
+        data: { header: false }, // 🔥 kapatıyoruz
+
         children: [
           { path: '', component: CategoriesComponent },
           { path: ':name', component: ProductComponent }
