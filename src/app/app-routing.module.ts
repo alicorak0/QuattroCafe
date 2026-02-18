@@ -16,14 +16,12 @@ export const routes: Routes = [
       {
         path: '',
         component: MainMenuComponent,
-        data: { header: true }
       },
 
       // menu sayfası
       {
         path: 'menu',
         component: MenuComponent,
-        data: { header: false }, // 🔥 kapatıyoruz
 
         children: [
           { path: '', component: CategoriesComponent },
