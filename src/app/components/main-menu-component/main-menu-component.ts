@@ -1,9 +1,5 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 
-declare global {
-  interface Window { instgrm: any }
-}
-
 
 @Component({
   selector: 'app-main-menu-component',
@@ -38,24 +34,6 @@ export class MainMenuComponent implements AfterViewInit {
       vid.onloadeddata = tryPlay;
     }
 
-    // ✅ INSTAGRAM SCRIPT LOAD
-    // const script = document.createElement('script');
-    // script.src = 'https://www.instagram.com/embed.js';
-    // script.async = true;
-
-    // script.onload = () => {
-    //   const ig = (window as any).instgrm;
-    //   if (ig) {
-    //     ig.Embeds.process();
-    //   }
-    // };
-
-
-      setTimeout(() => {
-      if (window['instgrm']) {
-        window['instgrm'].Embeds.process();
-      }
-    }, 300);
 
     
 
