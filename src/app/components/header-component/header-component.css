@@ -41,6 +41,13 @@
   height: auto;
 }
 
+.logo img:hover {
+
+  cursor: pointer;   /*  animasyonu değerlendir daha sonra */
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;

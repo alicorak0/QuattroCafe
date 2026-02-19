@@ -18,6 +18,22 @@ import { CommonModule } from '@angular/common';
 })
 export class MenuComponent {
 
+
+ isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
+
+
+
+
+
+
   products: Product[] = [
     {
       productId: 1,

@@ -1,7 +1,9 @@
 import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
-
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
+  imports: [RouterModule, CommonModule],
   selector: 'app-main-menu-component',
   templateUrl: './main-menu-component.html',
   styleUrls: ['./main-menu-component.css']
