@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import{ CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -11,5 +11,15 @@ import { NgModule } from '@angular/core';
   styleUrl: './categories-component.css',
 })
 export class CategoriesComponent {
+
+  isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
 
 }
