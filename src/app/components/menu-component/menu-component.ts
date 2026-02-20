@@ -37,31 +37,23 @@ export class MenuComponent {
   products: Product[] = [
     {
       productId: 1,
-      categoryName: 'burgers',
-      productName: 'Döner Sandviç',
-      description: 'Özenle marine edilmiş 100 gr tavuk döner, taze ekmek ve özel soslarımızla hazırlanır.',
+      categoryName: 'kahveler',
+      productName: 'Quattro Special',
+      description: ' Quattro Special , espresso ve ince köpükten oluşur. Yoğun kahve tadı ve kremsi dokusuyla bilinir.',
       tooltip: 'En çok satan',
       price: 150,
       image: 'dönerler-2.jpg'
     },
     {
       productId: 2,
-      categoryName: 'burgers',
-      productName: 'Patates Kızartması',
-      description: 'Günlük taze patateslerden, dışı çıtır içi yumuşak olacak şekilde kızartılır.',
+      categoryName: 'kahveler',
+      productName: 'Cappuccino',
+      description: 'Kremalı Cappuccino kahve, eşit oranlarda espresso, buharda ısıtılmış süt ve süt köpüğünden oluşur. Zengin aroması ve kremsi yapısıyla popülerdir.',
       tooltip: 'En çok satan',
       price: 150,
       image: 'aperatifler-1.jpg'
-    },
-    {
-      productId: 3,
-      categoryName: 'burgers',
-      productName: 'Soğan Halkası',
-      description: 'Altın sarısı kaplamasıyla çıtır çıtır, sıcak servis edilen soğan halkaları.',
-      tooltip: 'En çok satan',
-      price: 150,
-      image: 'aperatifler-2.jpg'
     }
+
 
 
   ]
