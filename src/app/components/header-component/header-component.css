@@ -1,52 +1,95 @@
-/* GENEL CONTAINER */
+/* ============================= */
+/* RESET */
+/* ============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+
+/* ============================= */
+/* CONTAINER */
+/* ============================= */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 150px;
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Josefin Sans", sans-serif;
 }
 
+
+/* ============================= */
 /* HEADER */
+/* ============================= */
+
 .header {
-  padding: 15px 0px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  padding: 20px 0;
+  z-index: 1000;
   color: white;
   background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
-/* NAV */
-.nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: 400;
-}
 
-/* Mobil taşmayı engeller */
-.nav-item-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
+/* ============================= */
+/* LOGO */
+/* ============================= */
 
 .logo img {
   width: 100px;
   height: auto;
+  transition: 0.3s ease;
 }
 
 .logo img:hover {
-
-  cursor: pointer;   /*  animasyonu değerlendir daha sonra */
   transform: scale(1.05);
-  transition: transform 0.3s ease;
+  cursor: pointer;
 }
+
+
+/* ============================= */
+/* NAV DESKTOP */
+/* ============================= */
+
+.nav {
+  display: flex;
+}
+
+.nav-item-container {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #c8a46b;
+}
+
+
+/* ============================= */
+/* HAMBURGER */
+/* ============================= */
 
 .hamburger {
   display: none;
@@ -59,98 +102,76 @@
 
 .hamburger span {
   height: 2px;
-  width: 20px;
+  width: 100%;
   background: #fff;
   border-radius: 3px;
-  margin: 2px;
 }
 
-@media (max-width:600px) {
+
+/* ============================= */
+/* TABLET (992px altı) */
+/* ============================= */
+
+@media (max-width: 992px) {
 
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Josefin Sans", sans-serif;
+    padding: 0 30px;
   }
 
-  .header {
-    padding: 5px 0px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    color: white;
-    background: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  .nav-item-container {
+    gap: 25px;
+  }
+
+}
+
+
+/* ============================= */
+/* MOBILE (600px altı) */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+  .container {
+    padding: 0 20px;
   }
 
   .logo img {
     width: 80px;
-    height: auto;
   }
-
 
   /* Hamburger görünür */
-
   .hamburger {
     display: flex;
-    padding-right: 10px;
   }
 
-  /* Menü gizlenir */
+  /* Menü gizli */
   .nav {
     position: absolute;
-    display: none;
-    top: 100px;
-    background: #fff;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 90%;
-    height: 60px;
-    flex-direction: column !important;
-    align-items: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 20px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
   }
 
   .nav.open {
-    transform: translateX(0);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px outset rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(8px);
-    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    z-index: 2000;
   }
 
   .nav-item-container {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    margin: 0px;
-    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 
-
   .nav a {
-    border-radius: 10px;
     font-size: 14px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 0px;
-    margin: 0px;
-    padding: 10px;
   }
 
 }
