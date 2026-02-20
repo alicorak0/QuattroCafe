@@ -212,7 +212,7 @@
 }
 
 .gallery-card img {
-    width: 400px;
+    width: 300px;
     height: auto;
     object-fit: cover;
     transition: transform .6s ease;
@@ -261,7 +261,7 @@
 
 .review-box {
     flex: 1;
-    margin: 50px 300px;
+    margin: 50px 100px;
     height: auto;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
