@@ -1,7 +1,7 @@
 .footer {
     background: #111;
     color: #eaeaea;
-    padding: 80px 28px;
+    padding: 60px 28px 40px 28px;
     font-family: "Josefin Sans", sans-serif;
     display: flex;
     flex-direction: column;
@@ -13,23 +13,30 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+    gap: 200px;
+}
+
+
+
+.footer h2 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    font-size: 30px;
 }
 
 .footer h3 {
     color: #c8a46b;
     letter-spacing: 3px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 .footer h4 {
     color: #fff;
     letter-spacing: 1px;
-    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .footer p {
@@ -37,20 +44,86 @@
     line-height: 1.8;
 }
 
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .footer-bottom {
     max-width: 1200px;
-    margin: 44px auto 0;
-    padding: 18px 40px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 18px 40px 0px 40px;
     color: #8c8c8c;
     font-size: 14px;
     text-align: center;
 }
 
-@media(max-width:900px) {
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.social-media-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+    margin-left: 0;
+}
+
+.social-media-icon i {
+    font-size: 25px;
+    color: #c8a46b;
+}
+
+.footer-col p,
+.footer-col h2,
+.footer-col h3,
+.footer-col h4 {
+    margin: 12px;
+}
+
+.footer-col p {
+    margin-bottom: 6px;
+    /* Satırlar arası boşluk */
+    line-height: 1.4;
+    /* Daha sık satır aralığı */
+}
+
+@media(max-width:600px) {
     .footer-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .footer-col h4 {
+        display: none;
+    }
+
+    .social {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social h2 {
+        display: none;
+    }
+
+    .footer-col p,
+    .footer-col h2,
+    .footer-col h3,
+    .footer-col h4 {
+        margin: 6px;
     }
 }

@@ -236,7 +236,7 @@
     height: 45vh;
     overflow: hidden;
     font-family: "Josefin Sans", sans-serif;
-    background: #222;
+    background: #fff;
 }
 
 .rate-us {
@@ -255,7 +255,8 @@
 
 .rate-us h1 {
     font-size: 70px;
-    color: #111;
+    line-height: 80px;
+    color: #c8a46b;
 }
 
 .review-box {
@@ -265,7 +266,7 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     padding: 30px 10px;
-    background: rgb(77, 77, 77);
+    background: #8c8c8c;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,7 +284,7 @@
     margin-top: 14px;
     padding: 14px 12px;
     background: #c8a46b;
-    color: #111;
+    color: #ffffff;
     font-weight: 600;
     text-decoration: none;
     border-radius: 12px;
@@ -298,7 +299,7 @@
 .review-link {
     display: block;
     margin-top: 12px;
-    color: #cfcfcf;
+    color: #ffffff;
     text-decoration: none;
     text-align: center;
     opacity: 0.85;
@@ -525,7 +526,7 @@
         height: 40vh;
         overflow: hidden;
         font-family: "Josefin Sans", sans-serif;
-        background: #222;
+        background: #fff;
     }
 
     .rate-us {
@@ -547,7 +548,8 @@
 
     .rate-us h1 {
         font-size: 32px;
-        color: #111;
+        color: #c8a46b;
+        line-height: 38px;
         margin-bottom: 25px
     }
 
@@ -557,7 +559,7 @@
         height: 20%;
         border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 10px;
-        background: rgb(77, 77, 77);
+        background: #8c8c8c;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -575,7 +577,7 @@
         width: 80%;
         padding: 10px 20px;
         background: #c8a46b;
-        color: #111;
+        color: #ffffff;
         font-weight: 600;
         text-decoration: none;
         border-radius: 10px;
@@ -590,7 +592,7 @@
     .review-link {
         display: block;
         margin-top: 12px;
-        color: #cfcfcf;
+        color: #ffffff;
         text-decoration: none;
         text-align: center;
         opacity: 0.85;
