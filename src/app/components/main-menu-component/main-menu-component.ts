@@ -19,10 +19,15 @@ export class MainMenuComponent implements AfterViewInit {
 
 
   ngAfterViewInit() {
-
-    // VIDEO PLAY (senin kodun)
     const vid = this.bgVideo.nativeElement;
+
     vid.muted = true;
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        this.bgVideo.nativeElement.play().catch(() => { });
+      });
+    });
 
     const tryPlay = () => {
       vid.play().catch(() => {
@@ -36,12 +41,6 @@ export class MainMenuComponent implements AfterViewInit {
       vid.onloadeddata = tryPlay;
     }
 
-
-    
-
-    // document.body.appendChild(script);
-
-    
   }
 
 
