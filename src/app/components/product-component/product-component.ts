@@ -12,6 +12,7 @@ import { NgModule } from '@angular/core';
   templateUrl: './product-component.html',
   styleUrl: './product-component.css',
 })
+
 export class ProductComponent implements OnInit {
   products: Product[] = [];
 
@@ -41,7 +42,6 @@ categoryNameMap: { [key: string]: string } = {
 
 
  loadProducts(category: string) {
-    // Backend'e category adıyla istekte bulun
     this.products = this.productService.getByCategory(category);
   }
 
