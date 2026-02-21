@@ -27,23 +27,41 @@ categoryNameMap: { [key: string]: string } = {
   'salatalar':"Salatalar",
   'wrapler':"Wrapler",
   'kruvasan-sandwichler':"Kruvasan  Sandwichler",
+  'tatlılar':"Tatlılar",
+  'special-sıcaklar':"Special Sıcaklar",
+  'special-soğuklar':"Special Soğuklar",
+   'ekstralar':"Ekstralar",
+   'bitki-çayları':"Bitki Çayları",
+   'dondurmalar':"Dondurmalar",
+   'sıcak-içecekler':"Sıcak İçecekler",
+   'soğuk-içecekler':"Soğuk İçecekler",
   'bowllar':"Bowllar",
    'tostlar':"Tostlar",
    'bazlamalar':"Bazlamalar",
    'gözlemeler':"Gözlemeler", 
    'atıştırmalıklar':"Atıştırmalıklar",
-   'dünya-kahveleri':"Dünya Kahveleri",
-   'kahveler':"Kahveler",
+   'milkshakeler':"Milkshakeler",
+   'sıcak-kahveler':"Sıcak Kahveler",
    'soğuk-kahveler':"Soğuk Kahveler",
    'çaylar':"Çaylar",
    'meşrubatlar':"Meşrubatlar",
+   'pizzalar':"Pizzalar",
      
 
 };
 
+categories: { key: string; label: string }[] = [];
 
 
      ngOnInit(): void {
+
+ this.categories = Object.keys(this.categoryNameMap).map(key => ({
+    key,
+    label: this.categoryNameMap[key]
+  }));
+
+
+      
   this.route.params.subscribe(params => {
     this.activeKey = params['name']; // burgers, snacks, desserts vs
 
@@ -59,6 +77,7 @@ categoryNameMap: { [key: string]: string } = {
  loadProducts(category: string) {
     this.products = this.productService.getByCategory(category);
   }
+
 
 
 }
