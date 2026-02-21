@@ -19,7 +19,7 @@ import { CommonModule } from '@angular/common';
 export class MenuComponent {
 
 
- isMenuOpen = false;
+  isMenuOpen = false;
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
@@ -35,25 +35,9 @@ export class MenuComponent {
 
 
   products: Product[] = [
-    {
-      productId: 1,
-      categoryName: 'kahveler',
-      productName: 'Quattro Special',
-      description: ' Quattro Special , espresso ve ince köpükten oluşur. Yoğun kahve tadı ve kremsi dokusuyla bilinir.',
-      tooltip: 'En çok satan',
-      price: 150,
-      image: 'dönerler-2.jpg'
-    },
-    {
-      productId: 2,
-      categoryName: 'kahveler',
-      productName: 'Cappuccino',
-      description: 'Kremalı Cappuccino kahve, eşit oranlarda espresso, buharda ısıtılmış süt ve süt köpüğünden oluşur. Zengin aroması ve kremsi yapısıyla popülerdir.',
-      tooltip: 'En çok satan',
-      price: 150,
-      image: 'aperatifler-1.jpg'
-    }
-
+    { productId: 1, categoryName: 'ana-yemekler', productName: 'Barbekü Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel barbekü sos, yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'beğendili-köfte-anayemek.jpg' },
+    { productId: 2, categoryName: 'atistirmalikler', productName: 'Çıtır Tavuk', description: 'Kızarmış paneli çıtır tavuk parçaları, patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 230, image: 'çıtır-tavuk-atıştırmalık.jpg' },
+    { productId: 3, categoryName: 'salatalar', productName: 'Sezar Salata', description: 'Çıtır göbek marullar, kroton ekmek, özel sezar sos, ızgara tavuk dilimleri, çeri domatesler ile servis edilir.', tooltip: 'En çok satan', price: 310, image: 'sezar-salata.jpg' },
 
 
   ]

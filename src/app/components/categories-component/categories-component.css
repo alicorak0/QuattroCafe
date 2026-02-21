@@ -87,8 +87,7 @@
   }
 
   .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
     gap: 15px;
     margin-top: 40px;
   }

@@ -163,7 +163,7 @@ body {
   margin-top: 5px;
   font-size: 20px;
   font-weight: bold;
-  color: #e60000;
+  color: #c8a46b;
 }
 
 /* Tablet (600px - 900px) → 2 sütun */
@@ -222,7 +222,7 @@ body {
     margin-top: 5px;
     font-size: 15px;
     font-weight: bold;
-    color: #e60000;
+    color: #c8a46b;
   }
 }
 
@@ -437,6 +437,6 @@ body {
     margin-top: 5px;
     font-size: 18px;
     font-weight: 600;
-    color: #e60000;
+    color: #c8a46b;
   }
 }

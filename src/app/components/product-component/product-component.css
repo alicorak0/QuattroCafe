@@ -53,13 +53,13 @@ main {
 }
 
 .sidebar-btn:hover {
-  background-color: #428533;
+  background-color: #c8a46b;
   /* soft orange hover */
   color: #f0f0f0;
 }
 
 .sidebar-btn.active {
-  background-color: #428533;
+  background-color: #c8a46b;
   color: #f0f0f0;
   font-weight: 600;
 }
@@ -76,7 +76,7 @@ main {
 .category-title h2 {
   margin-top: 0;
   margin-bottom: 25px;
-  color: #025928;
+  color: #c8a46b;
   font-size: 28px;
 }
 
@@ -122,10 +122,12 @@ main {
 }
 
 .product-description {
+  width: fit-content;
   flex: 1;
-  margin: 0 0 20px 0;
+  margin: 0 20px 20px 20px;
   font-size: 0.8rem;
   color: #666;
+  text-align: justify;
   line-height: 1.5;
 }
 
@@ -138,7 +140,7 @@ main {
 .product-price {
   font-size: 18px;
   font-weight: 700;
-  color: #025928;
+  color: #c8a46b;
 }
 
 
@@ -185,6 +187,21 @@ main {
     overflow-x: scroll;
     scroll-behavior: smooth;
     margin-bottom: 20px;
+  }
+
+  .sidebar-btn {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
 
   .sidebar::-webkit-scrollbar {
