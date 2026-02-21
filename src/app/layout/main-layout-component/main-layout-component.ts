@@ -23,6 +23,7 @@ export class MainLayoutComponent {
 
         // 🔥 MENÜDEYSE header kapat
         this.showHeader = !this.router.url.startsWith('/menu');
+        this.showHeader = !this.router.url.startsWith('/contact');
 
       });
   }

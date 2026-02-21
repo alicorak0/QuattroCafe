@@ -5,6 +5,7 @@ import { MainMenuComponent } from "./components/main-menu-component/main-menu-co
 import { MenuComponent } from "./components/menu-component/menu-component";
 import { ProductComponent } from "./components/product-component/product-component";
 import { CategoriesComponent } from "./components/categories-component/categories-component";
+import { ContactComponent } from "./components/contact-component/contact-component";
 
 export const routes: Routes = [
   {
@@ -27,6 +28,9 @@ export const routes: Routes = [
           { path: '', component: CategoriesComponent },
           { path: ':name', component: ProductComponent }
         ]
+      },
+      {
+         path:'contact',component:ContactComponent
       }
 
     ]
