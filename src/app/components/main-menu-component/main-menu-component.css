@@ -188,7 +188,6 @@
 .right h2 {
     font-size: 20px;
     font-weight: 350;
-    line-height: 1.2;
     text-align: justify;
 }
 
@@ -310,6 +309,11 @@
 
 .review-link:hover {
     opacity: 1;
+}
+
+
+@media (max-width:992px) {
+
 }
 
 @media (max-width:600px) {
@@ -600,4 +604,19 @@
         transition: opacity .2s;
     }
 
+}
+
+
+@media (max-width:400px) {
+  .review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 140vh;
+        overflow: hidden;
+        font-family: "Josefin Sans", sans-serif;
+        background: #fff;
+    }
 }
