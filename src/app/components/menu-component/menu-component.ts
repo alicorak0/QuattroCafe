@@ -35,7 +35,7 @@ export class MenuComponent {
 
 
   products: Product[] = [
-    { productId: 1, categoryName: 'ana-yemekler', productName: 'Barbekü Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel barbekü sos, yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'beğendili-köfte-anayemek.jpg' },
+    { productId: 1, categoryName: 'ana-yemekler', productName: 'Barbekü Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel barbekü sos, yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'barbekü-soslu-tavuk-anayemek.jpg' },
     { productId: 2, categoryName: 'atistirmalikler', productName: 'Çıtır Tavuk', description: 'Kızarmış paneli çıtır tavuk parçaları, patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 230, image: 'çıtır-tavuk-atıştırmalık.jpg' },
     { productId: 3, categoryName: 'salatalar', productName: 'Sezar Salata', description: 'Çıtır göbek marullar, kroton ekmek, özel sezar sos, ızgara tavuk dilimleri, çeri domatesler ile servis edilir.', tooltip: 'En çok satan', price: 310, image: 'sezar-salata.jpg' },
 
