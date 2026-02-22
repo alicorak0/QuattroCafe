@@ -41,7 +41,7 @@ export class ProductService {
 
     { productId: 26, categoryName: 'tostlar', productName: '4 Peynirli Tost', description: ' Tost ekmeği arasında rende kaşar peyniri, cheddar peyniri, beyaz peyniri yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 265, image: '4-peynirli-tost.jpg' },
     { productId: 27, categoryName: 'tostlar', productName: 'Bazlama Tost', description: 'Bazlama ekmeği arasında özel sos, kaşar peyniri, sucuk, yumurta, yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 290, image: 'bazlama-tost.jpg' },
-    { productId: 28, categoryName: 'tostlar', productName: 'Tavuklu Bazlama', description: 'Bazlama ekmeği arasında domates soslu jülyen tavuk dilimleri, renkli biberler, mantar, bazlama ekmeği üzerinde beşamel sos ve rende kaşar peyniri, yanında patates cips, dip sos ve maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'tavuk - bazlama.jpg' },
+    { productId: 28, categoryName: 'bazlamalar', productName: 'Tavuklu Bazlama', description: 'Bazlama ekmeği arasında domates soslu jülyen tavuk dilimleri, renkli biberler, mantar, bazlama ekmeği üzerinde beşamel sos ve rende kaşar peyniri, yanında patates cips, dip sos ve maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'tavuk-bazlama.jpg' },
 
     { productId: 29, categoryName: 'gözlemeler', productName: 'Alaturka Gözleme', description: 'Taze yufka arasında rende kaşar peyniri, sucuk ve renkli biberler, yanında söğüş(domates,salatalık,zeytin),  patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 290, image: 'alaturka-gözleme.jpg' },
     { productId: 30, categoryName: 'gözlemeler', productName: 'Bolu Usulü Gözleme', description: 'Taze yufka arasında rende kaşar peyniri, kıyma, köz patlıcan, yanında söğüş(domates,salatalık,zeytin) , patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 350, image: 'bolu-usülü-gözleme.jpg' },
@@ -51,13 +51,12 @@ export class ProductService {
     { productId: 33, categoryName: 'atıştırmalıklar', productName: 'Bonfrit', description: 'Kızarmış baharatlı parmak patatesler, dip sos ile servis edilir.', tooltip: 'En çok satan', price: 180, image: 'patates-atıştırmalık.jpg' },
     { productId: 34, categoryName: 'atıştırmalıklar', productName: 'Soğan Halkası', description: 'Panelenmiş çıtır soğan, patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 220, image: 'soğan-halkası-atıştırmalık.jpg' },
 
-    { productId: 35, categoryName: 'meşrubatlar', productName: 'Coca Cola', description: 'Buz gibi servis edilen ferahlatıcı kola.', tooltip: 'En çok satan', price: 60, image: 'içecekler-1.jpg' },
+    { productId: 35, categoryName: 'meşrubatlar', productName: 'Kutu Cola', description: 'Buz gibi servis edilen ferahlatıcı kola.', tooltip: 'En çok satan', price: 80, image: 'içecekler-1.jpg' },
     { productId: 36, categoryName: 'meşrubatlar', productName: 'Fanta', description: 'Portakal aromalı, serinletici gazlı içecek.', tooltip: 'En çok satan', price: 60, image: 'içecekler-2.jpg' },
-    { productId: 37, categoryName: 'meşrubatlar', productName: 'Schweppes', description: 'Kendine özgü aromasıyla ferahlatıcı gazlı içecek.', tooltip: 'En çok satan', price: 60, image: 'içecekler-3.jpg' },
-    { productId: 38, categoryName: 'meşrubatlar', productName: 'Fuse Tea Mango', description: 'Egzotik mango aromalı soğuk çay.', tooltip: 'En çok satan', price: 60, image: 'içecekler-4.jpg' },
-    { productId: 39, categoryName: 'meşrubatlar', productName: 'Fuse Tea Karpuz', description: 'Yaz ferahlığı sunan karpuz aromalı soğuk çay.', tooltip: 'En çok satan', price: 40, image: 'içecekler-5.jpg' },
-    { productId: 41, categoryName: 'meşrubatlar', productName: 'Fuse Tea Şeftali', description: 'Doğal şeftali aromasıyla hafif ve ferah.', tooltip: 'En çok satan', price: 60, image: 'içecekler-6.jpg' },
-    { productId: 42, categoryName: 'meşrubatlar', productName: 'Fuse Tea Limon', description: 'Limon aromalı, serinletici soğuk çay.', tooltip: 'En çok satan', price: 60, image: 'içecekler-7.jpg' },
+    { productId: 38, categoryName: 'meşrubatlar', productName: 'Fuse Tea Mango', description: 'Egzotik mango aromalı soğuk çay.', tooltip: 'En çok satan', price: 70, image: 'içecekler-4.jpg' },
+    { productId: 39, categoryName:'meşrubatlar', productName: 'Fuse Tea Karpuz', description: 'Yaz ferahlığı sunan karpuz aromalı soğuk çay.', tooltip: 'En çok satan', price: 70, image: 'içecekler-5.jpg' },
+    { productId: 41, categoryName: 'meşrubatlar', productName: 'Fuse Tea Şeftali', description: 'Doğal şeftali aromasıyla hafif ve ferah.', tooltip: 'En çok satan', price: 70, image: 'içecekler-6.jpg' },
+    { productId: 42, categoryName: 'meşrubatlar', productName: 'Fuse Tea Limon', description: 'Limon aromalı, serinletici soğuk çay.', tooltip: 'En çok satan', price: 70, image: 'içecekler-7.jpg' },
 
     { productId: 43, categoryName: 'makarnalar', productName: 'Çıtır Mantı', description: 'Haşlanmış dana etli mantılar, derin yağda kızarmış şekilde sarımsaklı yoğurt ve tereyağlı özel sos ile servis edilir.', tooltip: 'En çok satan', price: 300, image: 'çıtır - mantı.jpg' },
 
