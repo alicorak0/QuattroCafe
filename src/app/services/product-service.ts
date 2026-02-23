@@ -50,9 +50,9 @@ private Products: Product[] = [
   { productId: 239, categoryName: 'soğuk-kahveler', productName: 'Ice White Mocha', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
   { productId: 240, categoryName: 'soğuk-kahveler', productName: 'Quattro Affagato', description: '', tooltip: 'Yeni', price: 200, image: 'nophoto.jpg' },
 
-  { productId: 241, categoryName: 'milkshakeler', productName: 'Çikolatalı Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
-  { productId: 242, categoryName: 'milkshakeler', productName: 'Çilekli Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
-  { productId: 243, categoryName: 'milkshakeler', productName: 'Karamel Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
+  { productId: 241, categoryName: 'milkshakeler', productName: 'Çikolatalı Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çikolatalı-milkshake.jpg' },
+  { productId: 242, categoryName: 'milkshakeler', productName: 'Çilekli Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çilekli-milkshake.jpg' },
+  { productId: 243, categoryName: 'milkshakeler', productName: 'Karamel Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'karamel-milkshake.jpg' },
   { productId: 244, categoryName: 'milkshakeler', productName: 'Karpuz Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
 
   { productId: 245, categoryName: 'meşrubatlar', productName: 'Ayran', description: '', tooltip: 'Yeni', price: 60, image: 'nophoto.jpg' },
@@ -137,28 +137,28 @@ private Products: Product[] = [
 
   { productId: 318, categoryName: 'gözlemeler', productName: 'Alaturka Gözleme', description: 'Taze yufka arasında rende kaşar peyniri, sucuk ve renkli biberler, yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 290, image: 'alaturka-gözleme.jpg' },
   { productId: 319, categoryName: 'gözlemeler', productName: 'Bolu Usulü Gözleme', description: 'Taze yufka arasında rende kaşar peyniri, kıyma, köz patlıcan, yanında söğüş(domates,salatalık,zeytin) , patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 350, image: 'bolu-usülü-gözleme.jpg' },
-  { productId: 320, categoryName: 'gözlemeler', productName: 'Kaşarlı Gözleme', description: 'Taze yufka arasında rende kaşar peyniri yanında söğüş(domates, salatalık, zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 250, image: 'nophoto.jpg' },
+  { productId: 320, categoryName: 'gözlemeler', productName: 'Kaşarlı Gözleme', description: 'Taze yufka arasında rende kaşar peyniri yanında söğüş(domates, salatalık, zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 250, image: 'kaşarlı-gözleme.jpg' },
   { productId: 321, categoryName: 'gözlemeler', productName: 'Mantarlı Kaşarlı Gözleme', description: 'Taze yufka arasında rende kaşar peyniri ve mantar dilimleri yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 275, image: 'nophoto.jpg' },
   { productId: 322, categoryName: 'gözlemeler', productName: 'Patatesli Gözleme', description: '', tooltip: 'Yeni', price: 250, image: 'nophoto.jpg' },
   { productId: 323, categoryName: 'gözlemeler', productName: 'Peynirli Gözleme', description: 'Taze yufka arasında rende tulum peyniri, yanında söğüş(domates, salatalık, zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 225, image: 'nophoto.jpg' },
 
   { productId: 324, categoryName: 'ana-yemekler', productName: 'BBQ Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel barbekü sos, yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'barbekü-soslu-tavuk-anayemek.jpg' },
-  { productId: 325, categoryName: 'ana-yemekler', productName: 'Beğendili Köfte', description: 'Beğendi sos üzerinde ızgara köfte yanında parmak patates ve maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'beğendili-köfte-anayemek.jpg' },
+  { productId: 325, categoryName: 'ana-yemekler', productName: 'Beğendili Köfte', description: 'Beğendi sos üzerinde ızgara köfte yanında parmak patates ve maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'cokyakında.jpg' },
   { productId: 326, categoryName: 'ana-yemekler', productName: 'Cafe de Paris Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, cafe de paris sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'nophoto.jpg' },
-  { productId: 327, categoryName: 'ana-yemekler', productName: 'Et Çökertme', description: '', tooltip: 'Yeni', price: 500, image: 'nophoto.jpg' },
+  { productId: 327, categoryName: 'ana-yemekler', productName: 'Et Çökertme', description: '', tooltip: 'Yeni', price: 500, image: 'cokyakında.jpg' },
   { productId: 328, categoryName: 'ana-yemekler', productName: 'Izgara Tavuk Pirzola', description: 'Marine edilmiş ızgara tavuk eti yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 400, image: 'barbekü-soslu-tavuk-anayemek.jpg' },
-  { productId: 329, categoryName: 'ana-yemekler', productName: 'Karışık Izgara', description: 'Marine edilmiş ızgara tavuk eti, ev yapımı kasap köfte, sucuk dilimleri yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'karışık-ızgara-anayemek.jpg' },
-  { productId: 330, categoryName: 'ana-yemekler', productName: 'Kekikli Kremalı Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel dağ kekikli kremalı sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'nophoto.jpg' },
+  { productId: 329, categoryName: 'ana-yemekler', productName: 'Karışık Izgara', description: 'Marine edilmiş ızgara tavuk eti, ev yapımı kasap köfte, sucuk dilimleri yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'cokyakında.jpg' },
+  { productId: 330, categoryName: 'ana-yemekler', productName: 'Kekikli Kremalı Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel dağ kekikli kremalı sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'kekikli-kremalı-tavuk-anayemek.jpg' },
   { productId: 331, categoryName: 'ana-yemekler', productName: 'Köri Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel körili kremalı sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'köri-soslu-tavuk-anayemek.jpg' },
   { productId: 332, categoryName: 'ana-yemekler', productName: 'Pesto Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, jülyen mantar, özel kremalı fesleğenli sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'nophoto.jpg' },
-  { productId: 333, categoryName: 'ana-yemekler', productName: 'Sweetchili Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, mısır, özel sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'nophoto.jpg' },
+  { productId: 333, categoryName: 'ana-yemekler', productName: 'Sweetchili Soslu Tavuk', description: 'Jülyen tavuk dilimleri, renkli biberler, mısır, özel sos yanında patates püresi, maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'sweetchili-soslu-tavuk-anayemek.jpg' },
   { productId: 334, categoryName: 'ana-yemekler', productName: 'Tavuk Çökertme', description: 'Yoğurt yatağında jülyen tavuk, renkli biberler, soğan, kibrit patates, özel tereyağlı kırmızı sos ile servis edilir.', tooltip: 'En çok satan', price: 420, image: 'nophoto.jpg' },
 
-  { productId: 335, categoryName: 'makarnalar', productName: 'Anne Makarna', description: 'Haşlanmış penne makarnası domates rendesi ile servis edilir.', tooltip: 'Yeni', price: 215, image: 'nophoto.jpg' },
+  { productId: 335, categoryName: 'makarnalar', productName: 'Anne Makarna', description: 'Haşlanmış penne makarnası domates rendesi ile servis edilir.', tooltip: 'Yeni', price: 215, image: 'anne-makarnası.jpg' },
   { productId: 336, categoryName: 'makarnalar', productName: 'Çıtır Mantı', description: 'Haşlanmış dana etli mantılar, derin yağda kızarmış şekilde sarımsaklı yoğurt ve tereyağlı özel sos ile servis edilir.', tooltip: 'Yeni', price: 300, image: 'çıtır-mantı.jpg' },
-  { productId: 337, categoryName: 'makarnalar', productName: 'Ev Mantısı', description: 'Haşlanmış dana etli mantılar, sarımsaklı yoğurt ve tereyağlı özel sos ile servis edilir.', tooltip: 'Yeni', price: 320, image: 'nophoto.jpg' },
-  { productId: 338, categoryName: 'makarnalar', productName: 'Körili Tavuklu Mantarlı Makarna', description: 'Haşlanmış penne makarnası, jülyen tavuk dilimleri, jülyen mantar, körili kremalı özel sos ile servis edilir.', tooltip: 'Yeni', price: 310, image: 'nophoto.jpg' },
-  { productId: 339, categoryName: 'makarnalar', productName: 'Kremalı Mantarlı Tavuklu Makarna', description: 'Haşlanmış penne makarnası, jülyen tavuk dilimleri, jülyen mantar, kremalı özel sos ile servis edilir.', tooltip: 'Yeni', price: 310, image: 'nophoto.jpg' },
+  { productId: 337, categoryName: 'makarnalar', productName: 'Ev Mantısı', description: 'Haşlanmış dana etli mantılar, sarımsaklı yoğurt ve tereyağlı özel sos ile servis edilir.', tooltip: 'Yeni', price: 320, image: 'ev-mantısı.jpg' },
+  { productId: 338, categoryName: 'makarnalar', productName: 'Körili Tavuklu Mantarlı Makarna', description: 'Haşlanmış penne makarnası, jülyen tavuk dilimleri, jülyen mantar, körili kremalı özel sos ile servis edilir.', tooltip: 'Yeni', price: 310, image: 'pesto-soslu-mantarlı-tavuklu-penne-makarna.jpg' },
+  { productId: 339, categoryName: 'makarnalar', productName: 'Kremalı Mantarlı Tavuklu Makarna', description: 'Haşlanmış penne makarnası, jülyen tavuk dilimleri, jülyen mantar, kremalı özel sos ile servis edilir.', tooltip: 'Yeni', price: 310, image: 'kremalı-tavuklu-penne-makarna.jpg' },
   { productId: 340, categoryName: 'makarnalar', productName: 'Penne Arabiata', description: 'Haşlanmış penne makarnası, zeytin dilimleri, mısır, jalapeño biber, özel arabiata sos ile servis edilir.', tooltip: 'Yeni', price: 265, image: 'penne-arabiata-makarna.jpg' },
   { productId: 341, categoryName: 'makarnalar', productName: 'Pesto Soslu Kremalı Tavuklu Makarna', description: 'Haşlanmış penne makarnası, jülyen tavuk dilimleri, jülyen mantar, pesto kremalı özel sos ile servis edilir', tooltip: 'Yeni', price: 310, image: 'pesto-soslu-mantarlı-tavuklu-penne-makarna.jpg' },
   { productId: 342, categoryName: 'makarnalar', productName: 'Tagliatelle Alfredo', description: 'Haşlanmış tagliatelle makarnası, jülyen mantar, kremalı özel sos, üzerinde ızgara tavuk ile servis edilir', tooltip: 'Yeni', price: 330, image: 'tagliatalle-alfredo-makarna.jpg' },
@@ -169,7 +169,7 @@ private Products: Product[] = [
   { productId: 346, categoryName: 'salatalar', productName: 'Ton Balıklı Salata', description: 'Taze marul roka ve maydanoz yaprakları küp doğranmış domates ve salatalık dilimleri üzerinde ton balığı ile servis edilir.', tooltip: 'Yeni', price: 290, image: 'ton-balıklı-salata.jpg' },
 
   { productId: 347, categoryName: 'wrapler', productName: 'Çıtır Tavuk Wrap', description: 'Tortilla lavaş arasında çıtır tavuk dilimleri, marul, domates, kornişon turşu, cheddar peyniri yanında patates cips, maskolin salata ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 350, image: 'çıtır-tavuk-wrap.jpg' },
-  { productId: 348, categoryName: 'wrapler', productName: 'Et Wrap', description: '', tooltip: 'Yeni', price: 350, image: 'nophoto.jpg' },
+  { productId: 348, categoryName: 'wrapler', productName: 'Et Wrap', description: '', tooltip: 'Yeni', price: 350, image: 'cokyakında.jpg' },
   { productId: 349, categoryName: 'wrapler', productName: 'Tavuklu Wrap', description: 'Tortilla lavaş arasında jülyen tavuk dilimleri, renkli biberler, mantar, rende kaşar peyniri, yanında patates cips, maskolin salata ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 340, image: 'nophoto.jpg' },
 
   { productId: 350, categoryName: 'tostlar', productName: '4 Peynirli Tost', description: 'Tost ekmeği arasında rende kaşar peyniri, cheddar peyniri, beyaz peyniri yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 265, image: '4-peynirli-tost.jpg' },
@@ -180,7 +180,7 @@ private Products: Product[] = [
   { productId: 355, categoryName: 'tostlar', productName: 'Tulum Peynirli Sucuklu Tost', description: 'Tost ekmeği arasında rende tulum ve sucuk dilimleri, yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 290, image: 'nophoto.jpg' },
   { productId: 356, categoryName: 'tostlar', productName: 'Tulum Peynirli Tost', description: 'Tost ekmeği arasında rende tulum peyniri, yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 265, image: 'nophoto.jpg' },
 
-  { productId: 357, categoryName: 'bazlamalar', productName: 'Et Bazlama', description: '', tooltip: 'Yeni', price: 500, image: 'nophoto.jpg' },
+  { productId: 357, categoryName: 'bazlamalar', productName: 'Et Bazlama', description: '', tooltip: 'Yeni', price: 500, image: 'cokyakinda.jpg' },
   { productId: 358, categoryName: 'bazlamalar', productName: 'Tavuk Bazlama', description: 'Bazlama ekmeği arasında domates soslu jülyen tavuk dilimleri, renkli biberler, mantar, bazlama ekmeği üzerinde beşamel sos ve rende kaşar peyniri, yanında patates cips, dip sos ve maskolin salata ile servis edilir.', tooltip: 'En çok satan', price: 390, image: 'tavuk-bazlama.jpg' },
 
   { productId: 359, categoryName: 'meyve-tabagi', productName: 'Karışık Çerez', description: '', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
@@ -194,8 +194,8 @@ private Products: Product[] = [
 
   { productId: 153, categoryName: 'kahvaltı', productName: 'Express Kahvaltı (Büyük)', description: 'Pratik ve doyurucu express kahvaltı tabağı.', tooltip: 'Yeni', price: 300, image: 'nophoto.jpg' },
   { productId: 154, categoryName: 'kahvaltı', productName: 'Express Kahvaltı (Küçük)', description: 'Hafif express kahvaltı tabağı.', tooltip: 'Yeni', price: 200, image: 'nophoto.jpg' },
-  { productId: 155, categoryName: 'kahvaltı', productName: 'Menemen', description: 'Domates, biber ve yumurta ile hazırlanan klasik menemen.', tooltip: 'Yeni', price: 190, image: 'nophoto.jpg' },
-  { productId: 156, categoryName: 'kahvaltı', productName: 'Sahanda Sucuk', description: 'Sahanda pişirilmiş sucuk porsiyonu.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
+  { productId: 155, categoryName: 'kahvaltı', productName: 'Menemen', description: 'Domates, biber ve yumurta ile hazırlanan klasik menemen.', tooltip: 'Yeni', price: 190, image: 'menemen-kahvaltı.jpg' },
+  { productId: 156, categoryName: 'kahvaltı', productName: 'Sahanda Sucuk', description: 'Sahanda pişirilmiş sucuk porsiyonu.', tooltip: 'Yeni', price: 170, image: 'sahanda-sucuk-kahvaltı.jpg' },
   { productId: 157, categoryName: 'kahvaltı', productName: 'Sahanda Yumurta', description: 'Sahanda pişirilmiş yumurta porsiyonu.', tooltip: 'Yeni', price: 130, image: 'nophoto.jpg' },
   { productId: 158, categoryName: 'kahvaltı', productName: 'Sucuklu Kaşarlı Menemen', description: 'Sucuk ve kaşar ile zenginleştirilmiş menemen.', tooltip: 'Yeni', price: 210, image: 'nophoto.jpg' },
   { productId: 159, categoryName: 'kahvaltı', productName: 'Sucuklu Yumurta', description: 'Sucuk eşliğinde sahanda yumurta.', tooltip: 'Yeni', price: 160, image: 'nophoto.jpg' },
@@ -244,7 +244,7 @@ private Products: Product[] = [
 
   { productId: 198, categoryName: 'pizzalar', productName: 'Karışık Pizza Menü', description: 'Karışık pizza menü seçeneği.', tooltip: 'Yeni', price: 250, image: 'nophoto.jpg' },
 
-  { productId: 199, categoryName: 'burgerler', productName: 'Tiftik Burger', description: 'Özel tiftik burger (fotoğraftaki ürün).', tooltip: 'Yeni', price: 1, image: 'nophoto.jpg' },
+  { productId: 199, categoryName: 'burgerler', productName: 'Tiftik Burger', description: 'Özel tiftik burger (fotoğraftaki ürün).', tooltip: 'Yeni', price: 1, image: 'cokyakında.jpg' },
   { productId: 200, categoryName: 'burgerler', productName: 'Hawai Burger', description: 'Izgara burger köftesi,  özel soslu mushroom mantar, cheddar sos, karamelize soğan yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'hawai-burger.jpg' },
   { productId: 201, categoryName: 'burgerler', productName: 'Smash Burger', description: 'Double ızgara burger köftesi cheddar sos, karamelize soğan, yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 610, image: 'smash-burger.jpg' },
   { productId: 202, categoryName: 'burgerler', productName: 'Miami Burger', description: 'Izgara burger köftesi, karamelize soğan, mayonezli isli köz patlıcan, rosebeef dilimleri yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'miami-burger.jpg' },
@@ -260,7 +260,7 @@ private Products: Product[] = [
   { productId: 210, categoryName: 'atıştırmalıklar', productName: 'Bonfrit', description: 'Kızarmış baharatlı parmak patatesler, dip sos ile servis edilir.', tooltip: 'Yeni', price: 180, image: 'patates-atıştırmalık.jpg' },
   { productId: 211, categoryName: 'atıştırmalıklar', productName: 'Çıtır Tavuk', description: 'Kızarmış paneli çıtır tavuk parçaları, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 230, image: 'çıtır-tavuk-atıştırmalık.jpg' },
   { productId: 212, categoryName: 'atıştırmalıklar', productName: 'Karışık Sepet', description: 'Sigara böreği, sosis, soğan halkası, çıtır tavuk, patates cips ve dip sos ile servis edilir.',  tooltip: 'Yeni', price: 295, image: 'karışık-sepet-atıştırmalık.jpg' },
-  { productId: 213, categoryName: 'atıştırmalıklar', productName: 'Sigara Böreği', description: 'Kızarmış sigara börekleri, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 220, image: 'nophoto.jpg' },
+  { productId: 213, categoryName: 'atıştırmalıklar', productName: 'Sigara Böreği', description: 'Kızarmış sigara börekleri, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 220, image: 'sigara-böreği-atıştırmalık.jpg' },
   { productId: 214, categoryName: 'atıştırmalıklar', productName: 'Soğan Halkası', description: 'Panelenmiş çıtır soğan, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 220, image: 'soğan-halkası-atıştırmalık.jpg' }
 
 ];
