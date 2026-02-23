@@ -39,7 +39,6 @@ export class ProductComponent implements OnInit {
     'special-sıcaklar': "Special Sıcaklar",
     'special-soğuklar': "Special Soğuklar",
     'ekstralar': "Ekstralar",
-    'bitki-çayları': "Bitki Çayları",
     'dondurmalar': "Dondurmalar",
     'sıcak-içecekler': "Sıcak İçecekler",
     'soğuk-içecekler': "Soğuk İçecekler",
