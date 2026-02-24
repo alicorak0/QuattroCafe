@@ -99,6 +99,17 @@ body {
 
 
 @media (max-width: 600px) {
+  .header {
+  padding: 5px 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  color: white;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
 
   .container {
     padding: 0 20px;
