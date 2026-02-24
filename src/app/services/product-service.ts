@@ -132,7 +132,6 @@ private Products: Product[] = [
   { productId: 313, categoryName: 'kruvasan-sandwichler', productName: 'Küçük Kruvasan', description: '', tooltip: 'Yeni', price: 50, image: 'nophoto.jpg' },
   { productId: 314, categoryName: 'kruvasan-sandwichler', productName: 'Nata', description: '', tooltip: 'Yeni', price: 75, image: 'nophoto.jpg' },
   { productId: 315, categoryName: 'kruvasan-sandwichler', productName: 'Peynirli Kruvasan', description: 'Tereyağlı kruvasan arasında kremamsı labne, kaşar peyniri, tulum peyniri ve beyaz peynirin üzerinde domates ve roka yaprakları ile servis edilir.', tooltip: 'Yeni', price: 265, image: 'peynirli-kruvasan.jpg' },
-  { productId: 316, categoryName: 'kruvasan-sandwichler', productName: 'Roll Kruvasan', description: '', tooltip: 'Yeni', price: 230, image: 'nophoto.jpg' },
   { productId: 317, categoryName: 'kruvasan-sandwichler', productName: 'Tereyağlı Sade Kruvasan', description: 'Tereyağlı kruvasan arasında ince dilimlenmiş hindi füme cheddar peyniri, taze marul, ve ballı hardal sos ile servis edilir.', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
 
   { productId: 318, categoryName: 'gözlemeler', productName: 'Alaturka Gözleme', description: 'Taze yufka arasında rende kaşar peyniri, sucuk ve renkli biberler, yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 290, image: 'alaturka-gözleme.jpg' },
