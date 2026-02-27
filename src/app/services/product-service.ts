@@ -25,12 +25,12 @@ private Products: Product[] = [
   { productId: 216, categoryName: 'sıcak-kahveler', productName: 'Vanilya Latte', description: 'Vanilya aromasıyla yumuşak ve tatlı içim.', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
   { productId: 217, categoryName: 'sıcak-kahveler', productName: 'White Mocha', description: 'Beyaz çikolata dokunuşlu, kremamsı mocha.', tooltip: 'Yeni', price: 180, image: 'white-mocha-sıcakkkahve.jpg' },
 
-  { productId: 218, categoryName: 'special-sıcaklar', productName: 'Almond Latte', description: 'Badem aromasıyla hafif ve tatlı latte deneyimi.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 219, categoryName: 'special-sıcaklar', productName: 'Choco-Banana Latte', description: 'Çikolata ve muz aromasıyla tatlı, sıcak içim.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 220, categoryName: 'special-sıcaklar', productName: 'Cocoster Latte', description: 'Hindistan cevizi aromasıyla yumuşak içimli latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 221, categoryName: 'special-sıcaklar', productName: 'Lavender Rose Latte', description: '', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 222, categoryName: 'special-sıcaklar', productName: 'Pecan Caramel Latte', description: '', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 223, categoryName: 'special-sıcaklar', productName: 'Pumpkin Spice Latte', description: 'Baharatlı balkabağı aromasıyla sıcak ve karakterli içim.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
+  { productId: 218, categoryName: 'special-sıcaklar', productName: 'Almond Latte', description: 'Badem aromasıyla hafif ve tatlı latte deneyimi.', tooltip: 'Yeni', price: 170, image: 'almond-latte-specialsıcak.jpg' },
+  { productId: 219, categoryName: 'special-sıcaklar', productName: 'Choco-Banana Latte', description: 'Çikolata ve muz aromasıyla tatlı, sıcak içim.', tooltip: 'Yeni', price: 170, image: 'choco-banana-latte-specialsıcak.jpg' },
+  { productId: 220, categoryName: 'special-sıcaklar', productName: 'Cocoster Latte', description: 'Hindistan cevizi aromasıyla yumuşak içimli latte.', tooltip: 'Yeni', price: 170, image: 'cocoster-latte-specialsıcak.jpg' },
+  { productId: 221, categoryName: 'special-sıcaklar', productName: 'Lavender Rose Latte', description: '', tooltip: 'Yeni', price: 170, image: 'lavander-rose-latte-specialsıcak.jpg' },
+  { productId: 222, categoryName: 'special-sıcaklar', productName: 'Pecan Caramel Latte', description: '', tooltip: 'Yeni', price: 170, image: 'pecan-caramel-latte-specialsıcak.jpg' },
+  { productId: 223, categoryName: 'special-sıcaklar', productName: 'Pumpkin Spice Latte', description: 'Baharatlı balkabağı aromasıyla sıcak ve karakterli içim.', tooltip: 'Yeni', price: 170, image: 'pumpkin-spice-latte-specialsıcak.jpg' },
 
   { productId: 224, categoryName: 'soğuk-kahveler', productName: 'Cold Brew', description: '', tooltip: 'Yeni', price: 180, image: 'cold-brew-sogukkahve.jpg' },
   { productId: 225, categoryName: 'soğuk-kahveler', productName: 'Frappe', description: '', tooltip: 'Yeni', price: 180, image: 'frappe-sogukkahve.jpg' },
@@ -231,12 +231,12 @@ private Products: Product[] = [
   { productId: 190, categoryName: 'çaylar', productName: 'Yasemin Çay', description: 'Sıcak yasemin çayı.', tooltip: 'Yeni', price: 130, image: 'yasemin-çay.jpg' },
   { productId: 191, categoryName: 'çaylar', productName: 'Yeşil Çay', description: 'Sıcak yeşil çay.', tooltip: 'Yeni', price: 130, image: 'yeşil-çay.jpg' },
 
-  { productId: 192, categoryName: 'special-soğuklar', productName: 'Ice Almond Latte', description: 'Buzlu badem aromalı latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 193, categoryName: 'special-soğuklar', productName: 'Ice Choco-Banana Latte', description: 'Buzlu çikolata-muz aromalı latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 194, categoryName: 'special-soğuklar', productName: 'Ice Cocoster Latte', description: 'Buzlu hindistan cevizi aromalı latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 195, categoryName: 'special-soğuklar', productName: 'Ice Lavender Rose Latte', description: 'Buzlu lavanta-gül aromalı latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 196, categoryName: 'special-soğuklar', productName: 'Ice Pecan Caramel Latte', description: 'Buzlu pekan-karamel aromalı latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
-  { productId: 197, categoryName: 'special-soğuklar', productName: 'Ice Pumpkin Spice Latte', description: 'Buzlu pumpkin spice latte.', tooltip: 'Yeni', price: 170, image: 'nophoto.jpg' },
+  { productId: 192, categoryName: 'special-soğuklar', productName: 'Ice Almond Latte', description: 'Buzlu badem aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-almondlatte-specialsoguk.jpg' },
+  { productId: 193, categoryName: 'special-soğuklar', productName: 'Ice Choco-Banana Latte', description: 'Buzlu çikolata-muz aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-choco-banana-latte-specialsoguk.jpg' },
+  { productId: 194, categoryName: 'special-soğuklar', productName: 'Ice Cocoster Latte', description: 'Buzlu hindistan cevizi aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-cocoster-specialsoguk.jpg' },
+  { productId: 195, categoryName: 'special-soğuklar', productName: 'Ice Lavender Rose Latte', description: 'Buzlu lavanta-gül aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-lavander-latte-specialsoguk.jpg' },
+  { productId: 196, categoryName: 'special-soğuklar', productName: 'Ice Pecan Caramel Latte', description: 'Buzlu pekan-karamel aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-pecan-caramel-specialsoguk.jpg' },
+  { productId: 197, categoryName: 'special-soğuklar', productName: 'Ice Pumpkin Spice Latte', description: 'Buzlu pumpkin spice latte.', tooltip: 'Yeni', price: 170, image: 'ice-pumpkin-spice-latte-specialsoguk.jpg' },
 
   { productId: 198, categoryName: 'pizzalar', productName: 'Karışık Pizza Menü', description: 'Karışık pizza menü seçeneği.', tooltip: 'Yeni', price: 250, image: 'cokyakında.jpg' },
 
