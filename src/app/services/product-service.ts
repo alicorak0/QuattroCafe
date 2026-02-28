@@ -197,14 +197,14 @@ private Products: Product[] = [
   { productId: 159, categoryName: 'kahvaltı', productName: 'Sucuklu Yumurta', description: 'Sucuk eşliğinde sahanda yumurta.', tooltip: 'Yeni', price: 160, image: 'sucuklu-yumurta-kahvaltı.jpg' },
   { productId: 215, categoryName: 'kahvaltı', productName: 'Sıcak Kahvaltı', description: '', tooltip: 'Yeni', price: 220, image: 'sıcak-kahvaltı.jpg' },
 
-  { productId: 160, categoryName: 'ekstralar', productName: 'Ekstra Krema', description: 'İçeceklerinize ekstra krema ekleyin.', tooltip: 'Yeni', price: 25, image: 'nophoto.jpg' },
-  { productId: 161, categoryName: 'ekstralar', productName: 'Ekstra Shot', description: 'Kahvenize ekstra espresso shot ekleyin.', tooltip: 'Yeni', price: 30, image: 'nophoto.jpg' },
-  { productId: 162, categoryName: 'ekstralar', productName: 'Ekstra Süt', description: 'İçeceklerinize ekstra süt ekleyin.', tooltip: 'Yeni', price: 25, image: 'nophoto.jpg' },
-  { productId: 163, categoryName: 'ekstralar', productName: 'Ekstra Şurup', description: 'Aromalı şurup ilavesi.', tooltip: 'Yeni', price: 30, image: 'nophoto.jpg' },
-  { productId: 164, categoryName: 'ekstralar', productName: 'Küçük Sakız', description: 'Tekli küçük sakız.', tooltip: 'Yeni', price: 30, image: 'nophoto.jpg' },
-  { productId: 165, categoryName: 'ekstralar', productName: 'Lolipop', description: 'Tekli lolipop.', tooltip: 'Yeni', price: 30, image: 'nophoto.jpg' },
-  { productId: 166, categoryName: 'ekstralar', productName: 'Mentos', description: 'Mentos şekerleme.', tooltip: 'Yeni', price: 50, image: 'nophoto.jpg' },
-  { productId: 168, categoryName: 'ekstralar', productName: 'Vividend Sakız', description: 'Vividend sakız.', tooltip: 'Yeni', price: 80, image: 'nophoto.jpg' },
+  { productId: 160, categoryName: 'ekstralar', productName: 'Ekstra Krema', description: 'İçeceklerinize ekstra krema ekleyin.', tooltip: 'Yeni', price: 25, image: 'krema-ekstralar.jpg' },
+  { productId: 161, categoryName: 'ekstralar', productName: 'Ekstra Shot', description: 'Kahvenize ekstra espresso shot ekleyin.', tooltip: 'Yeni', price: 30, image: 'espresso-ekstralar.jpg' },
+  { productId: 162, categoryName: 'ekstralar', productName: 'Ekstra Süt', description: 'İçeceklerinize ekstra süt ekleyin.', tooltip: 'Yeni', price: 25, image: 'süt-ekstralar.jpg' },
+  { productId: 163, categoryName: 'ekstralar', productName: 'Ekstra Şurup', description: 'Aromalı şurup ilavesi.', tooltip: 'Yeni', price: 30, image: 'şurup-ekstralar.jpg' },
+  { productId: 164, categoryName: 'ekstralar', productName: 'Küçük Sakız', description: 'Tekli küçük sakız.', tooltip: 'Yeni', price: 30, image: 'sakız-ekstralar.jpg' },
+  { productId: 165, categoryName: 'ekstralar', productName: 'Lolipop', description: 'Tekli lolipop.', tooltip: 'Yeni', price: 30, image: 'lolipop-ekstralar.jpg' },
+  { productId: 166, categoryName: 'ekstralar', productName: 'Mentos', description: 'Mentos şekerleme.', tooltip: 'Yeni', price: 50, image: 'mentos-ekstralar.jpg' },
+  { productId: 168, categoryName: 'ekstralar', productName: 'Vividend Sakız', description: 'Vividend sakız.', tooltip: 'Yeni', price: 80, image: 'vivident-ekstralar.jpg' },
 
   { productId: 169, categoryName: 'dondurmalar', productName: '3 Top Dondurma', description: '3 top dondurma seçeneği.', tooltip: 'Yeni', price: 100, image: 'üçlü-dondurma.jpg' },
   { productId: 170, categoryName: 'dondurmalar', productName: 'Bal Badem Top', description: 'Bal badem aromalı 1 top.', tooltip: 'Yeni', price: 40, image: 'bal-badem-dondurma.jpg' },
@@ -230,6 +230,9 @@ private Products: Product[] = [
   { productId: 189, categoryName: 'çaylar', productName: 'Quattro Special', description: 'Özel karışım bitki çayı.', tooltip: 'Yeni', price: 150, image: 'papatya-çay.jpg' },
   { productId: 190, categoryName: 'çaylar', productName: 'Yasemin Çay', description: 'Sıcak yasemin çayı.', tooltip: 'Yeni', price: 130, image: 'yasemin-çay.jpg' },
   { productId: 191, categoryName: 'çaylar', productName: 'Yeşil Çay', description: 'Sıcak yeşil çay.', tooltip: 'Yeni', price: 130, image: 'yeşil-çay.jpg' },
+  { productId: 215, categoryName: 'çaylar', productName: 'Siyah Çay', description: 'Sıcak yeşil çay.', tooltip: 'Yeni', price: 130, image: 'siyahçay-çay.jpg' },
+
+
 
   { productId: 192, categoryName: 'special-soğuklar', productName: 'Ice Almond Latte', description: 'Buzlu badem aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-almondlatte-specialsoguk.jpg' },
   { productId: 193, categoryName: 'special-soğuklar', productName: 'Ice Choco-Banana Latte', description: 'Buzlu çikolata-muz aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-choco-banana-latte-specialsoguk.jpg' },
