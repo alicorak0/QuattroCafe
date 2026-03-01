@@ -53,7 +53,7 @@ private Products: Product[] = [
   { productId: 241, categoryName: 'milkshakeler', productName: 'Çikolatalı Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çikolatalı-milkshake.jpg' },
   { productId: 242, categoryName: 'milkshakeler', productName: 'Çilekli Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çilekli-milkshake.jpg' },
   { productId: 243, categoryName: 'milkshakeler', productName: 'Karamel Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'karamel-milkshake.jpg' },
-  { productId: 244, categoryName: 'milkshakeler', productName: 'Karpuz Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
+  { productId: 244, categoryName: 'milkshakeler', productName: 'Karpuz Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çilekli-milkshake.jpg' },
 
   { productId: 245, categoryName: 'meşrubatlar', productName: 'Ayran', description: '', tooltip: 'Yeni', price: 60, image: 'ayran-meşrubat.jpg' },
   { productId: 246, categoryName: 'meşrubatlar', productName: 'Cappy Şeftali', description: '', tooltip: 'Yeni', price: 80, image: 'cappy-şeftali-meşrubat.jpg' },
@@ -167,7 +167,7 @@ private Products: Product[] = [
 
   { productId: 347, categoryName: 'wrapler', productName: 'Çıtır Tavuk Wrap', description: 'Tortilla lavaş arasında çıtır tavuk dilimleri, marul, domates, kornişon turşu, cheddar peyniri yanında patates cips, maskolin salata ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 350, image: 'çıtır-tavuk-wrap.jpg' },
   { productId: 348, categoryName: 'wrapler', productName: 'Et Wrap', description: '', tooltip: 'Yeni', price: 350, image: 'cokyakında.jpg' },
-  { productId: 349, categoryName: 'wrapler', productName: 'Tavuklu Wrap', description: 'Tortilla lavaş arasında jülyen tavuk dilimleri, renkli biberler, mantar, rende kaşar peyniri, yanında patates cips, maskolin salata ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 340, image: 'nophoto.jpg' },
+  { productId: 349, categoryName: 'wrapler', productName: 'Tavuklu Wrap', description: 'Tortilla lavaş arasında jülyen tavuk dilimleri, renkli biberler, mantar, rende kaşar peyniri, yanında patates cips, maskolin salata ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 340, image: 'tavuk-wrap.jpg' },
 
   { productId: 350, categoryName: 'tostlar', productName: '4 Peynirli Tost', description: 'Tost ekmeği arasında rende kaşar peyniri, cheddar peyniri, beyaz peyniri yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 265, image: '4-peynirli-tost.jpg' },
   { productId: 351, categoryName: 'tostlar', productName: 'Bazlama Tost', description: 'Bazlama ekmeği arasında özel sos, kaşar peyniri, sucuk, yumurta, yanında söğüş(domates,salatalık,zeytin), patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 290, image: 'bazlama-tost.jpg' },
