@@ -219,6 +219,7 @@ private Products: Product[] = [
   { productId: 179, categoryName: 'dondurmalar', productName: 'Oreo Top', description: 'Oreo aromalı 1 top.', tooltip: 'Yeni', price: 40, image: 'oreo-dondurma.jpg' },
   { productId: 180, categoryName: 'dondurmalar', productName: 'Vanilya Top', description: 'Vanilya aromalı 1 top.', tooltip: 'Yeni', price: 40, image: 'vanilya-dondurma.jpg' },
 
+    { productId: 215, categoryName: 'çaylar', productName: 'Siyah Çay', description: 'Sıcak çay.', tooltip: 'Yeni', price: 40, image: 'siyahçay-çay.jpg' },
   { productId: 181, categoryName: 'çaylar', productName: 'Ada Çayı', description: 'Sıcak ada çayı.', tooltip: 'Yeni', price: 130, image: 'adaçayı-çay.jpg' },
   { productId: 182, categoryName: 'çaylar', productName: 'Böğürtlen Çayı', description: 'Sıcak böğürlen çayı.', tooltip: 'Yeni', price: 130, image: 'böğürtlençayı-çay.jpg' },
   { productId: 183, categoryName: 'çaylar', productName: 'Hibiscus Çayı', description: 'Sıcak hibiscus çayı.', tooltip: 'Yeni', price: 130, image: 'hibiscus-çay.jpg' },
@@ -230,7 +231,7 @@ private Products: Product[] = [
   { productId: 189, categoryName: 'çaylar', productName: 'Quattro Special', description: 'Özel karışım bitki çayı.', tooltip: 'Yeni', price: 150, image: 'papatya-çay.jpg' },
   { productId: 190, categoryName: 'çaylar', productName: 'Yasemin Çay', description: 'Sıcak yasemin çayı.', tooltip: 'Yeni', price: 130, image: 'yasemin-çay.jpg' },
   { productId: 191, categoryName: 'çaylar', productName: 'Yeşil Çay', description: 'Sıcak yeşil çay.', tooltip: 'Yeni', price: 130, image: 'yeşil-çay.jpg' },
-  { productId: 215, categoryName: 'çaylar', productName: 'Siyah Çay', description: 'Sıcak yeşil çay.', tooltip: 'Yeni', price: 130, image: 'siyahçay-çay.jpg' },
+
 
 
 
@@ -243,7 +244,7 @@ private Products: Product[] = [
 
   { productId: 198, categoryName: 'pizzalar', productName: 'Karışık Pizza Menü', description: 'Karışık pizza menü seçeneği.', tooltip: 'Yeni', price: 250, image: 'cokyakında.jpg' },
 
-  { productId: 199, categoryName: 'burgerler', productName: 'Tiftik Burger', description: 'Özel tiftik burger (fotoğraftaki ürün).', tooltip: 'Yeni', price: 1, image: 'cokyakında.jpg' },
+  { productId: 199, categoryName: 'burgerler', productName: 'Tiftik Burger', description: 'Özel tiftik burger (fotoğraftaki ürün).', tooltip: 'Yeni', price: 0, image: 'cokyakında.jpg' },
   { productId: 200, categoryName: 'burgerler', productName: 'Hawai Burger', description: 'Izgara burger köftesi,  özel soslu mushroom mantar, cheddar sos, karamelize soğan yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'hawai-burger.jpg' },
   { productId: 201, categoryName: 'burgerler', productName: 'Smash Burger', description: 'Double ızgara burger köftesi cheddar sos, karamelize soğan, yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 610, image: 'smash-burger.jpg' },
   { productId: 202, categoryName: 'burgerler', productName: 'Miami Burger', description: 'Izgara burger köftesi, karamelize soğan, mayonezli isli köz patlıcan, rosebeef dilimleri yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'miami-burger.jpg' },
