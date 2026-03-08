@@ -195,7 +195,7 @@ private Products: Product[] = [
   { productId: 157, categoryName: 'kahvaltı', productName: 'Sahanda Yumurta', description: 'Sahanda pişirilmiş yumurta porsiyonu.', tooltip: 'Yeni', price: 130, image: 'sahanda-yumurta-kahvaltı.jpg' },
   { productId: 158, categoryName: 'kahvaltı', productName: 'Sucuklu Kaşarlı Menemen', description: 'Sucuk ve kaşar ile zenginleştirilmiş menemen.', tooltip: 'Yeni', price: 210, image: 'sucuklu-kaşarlı-menemen-kahvaltı.jpg' },
   { productId: 159, categoryName: 'kahvaltı', productName: 'Sucuklu Yumurta', description: 'Sucuk eşliğinde sahanda yumurta.', tooltip: 'Yeni', price: 160, image: 'sucuklu-yumurta-kahvaltı.jpg' },
-  { productId: 215, categoryName: 'kahvaltı', productName: 'Sıcak Kahvaltı', description: '', tooltip: 'Yeni', price: 220, image: 'sıcak-kahvaltı.jpg' },
+  { productId: 215, categoryName: 'kahvaltı', productName: 'Sıcak Kahvaltı', description: '', tooltip: 'Yeni', price: 350, image: 'sıcak-kahvaltı.jpg' },
 
   { productId: 160, categoryName: 'ekstralar', productName: 'Ekstra Krema', description: 'İçeceklerinize ekstra krema ekleyin.', tooltip: 'Yeni', price: 25, image: 'krema-ekstralar.jpg' },
   { productId: 161, categoryName: 'ekstralar', productName: 'Ekstra Shot', description: 'Kahvenize ekstra espresso shot ekleyin.', tooltip: 'Yeni', price: 30, image: 'espresso-ekstralar.jpg' },
