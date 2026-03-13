@@ -101,13 +101,13 @@ private Products: Product[] = [
   { productId: 289, categoryName: 'soğuk-içecekler', productName: 'Redbul Special', description: '', tooltip: 'Yeni', price: 150, image: 'redbull-special-sogukicecek.jpg' },
 
 
-    { productId: 290, categoryName: 'tatlılar', productName: 'Red Velvet Cup', description: '', tooltip: 'Yeni', price: 230, image: 'nophoto.jpg' },
+    { productId: 290, categoryName: 'tatlılar', productName: 'Red Velvet Cup', description: '', tooltip: 'Yeni', price: 220, image: 'nophoto.jpg' },
   { productId: 290, categoryName: 'tatlılar', productName: 'Antep Fıstıklı Velvet Cup', description: '', tooltip: 'Yeni', price: 230, image: 'antep-fıstıklı-cup-tatlı.jpg' },
   { productId: 291, categoryName: 'tatlılar', productName: 'Antep Rüyası', description: 'Antep fıstığı ağırlıklı, zengin aromalı özel tatlı.', tooltip: 'Yeni', price: 280, image: 'antep-rüyası-tatlı.jpg' },
   { productId: 292, categoryName: 'tatlılar', productName: 'Antep San Sebastian', description: 'Antep fıstığı dokunuşlu San Sebastian; yoğun ve özel.', tooltip: 'Yeni', price: 290, image: 'antep-fıstıklı-sansebastian-tatlı.jpg' },
   { productId: 293, categoryName: 'tatlılar', productName: 'Belçika Çikolatalı Pasta', description: 'Yoğun Belçika çikolatası ile zengin, yumuşak pasta dilimi.', tooltip: 'Yeni', price: 260, image: 'belçika-çikolatalı-tatlı.jpg' },
   { productId: 294, categoryName: 'tatlılar', productName: 'Bellavista', description: 'Kremamsı dokusu ve hafif tadıyla özel tatlı seçeneği.', tooltip: 'Yeni', price: 220, image: 'bellvista-tatlı.jpg' },
-    { productId: 295, categoryName: 'tatlılar', productName: 'Red Velvet Pasta', description: '', tooltip: 'Yeni', price: 220, image: 'nophoto.jpg' },
+    { productId: 295, categoryName: 'tatlılar', productName: 'Red Velvet Pasta', description: '', tooltip: 'Yeni', price: 240, image: 'nophoto.jpg' },
 
   { productId: 295, categoryName: 'tatlılar', productName: 'Devil Mono Pasta', description: 'Yoğun çikolata severlere özel, tek porsiyon mono pasta.', tooltip: 'Yeni', price: 280, image: 'devilmono-tatlı.jpg' },
   { productId: 296, categoryName: 'tatlılar', productName: 'Extra Callebaut', description: '', tooltip: 'Yeni', price: 80, image: 'extra-callebaut-tatlı.jpg' },
@@ -218,7 +218,10 @@ private Products: Product[] = [
   { productId: 179, categoryName: 'dondurmalar', productName: 'Oreo Top', description: 'Oreo aromalı 1 top.', tooltip: 'Yeni', price: 40, image: 'oreo-dondurma.jpg' },
   { productId: 180, categoryName: 'dondurmalar', productName: 'Vanilya Top', description: 'Vanilya aromalı 1 top.', tooltip: 'Yeni', price: 40, image: 'vanilya-dondurma.jpg' },
 
-    { productId: 215, categoryName: 'çaylar', productName: 'Siyah Çay', description: 'Sıcak çay.', tooltip: 'Yeni', price: 40, image: 'siyahçay-çay.jpg' },
+    { productId: 215, categoryName: 'çaylar', productName: 'Siyah Çay', description: 'Sıcak çay.', tooltip: 'Yeni', price: 50, image: 'siyahçay-çay.jpg' },
+        { productId: 215, categoryName: 'çaylar', productName: 'Fincan Siyah Çay', description: 'Fincanda Sıcak çay.', tooltip: 'Yeni', price: 90, image: 'nophoto.jpg' },
+    { productId: 215, categoryName: 'çaylar', productName: 'Kupa Siyah Çay ', description: 'Kupada Sıcak çay.', tooltip: 'Yeni', price: 120, image: 'nophoto.jpg' },
+
   { productId: 181, categoryName: 'çaylar', productName: 'Ada Çayı', description: 'Sıcak ada çayı.', tooltip: 'Yeni', price: 130, image: 'adaçayı-çay.jpg' },
   { productId: 182, categoryName: 'çaylar', productName: 'Böğürtlen Çayı', description: 'Sıcak böğürlen çayı.', tooltip: 'Yeni', price: 130, image: 'böğürtlençayı-çay.jpg' },
   { productId: 183, categoryName: 'çaylar', productName: 'Hibiscus Çayı', description: 'Sıcak hibiscus çayı.', tooltip: 'Yeni', price: 130, image: 'hibiscus-çay.jpg' },
@@ -250,11 +253,14 @@ private Products: Product[] = [
   { productId: 203, categoryName: 'burgerler', productName: 'Çıtır Tavuk Burger', description: 'Panelenmiş çıtır tavuk pirzola, kornişon turşu, cheddar sos, karamelize soğan, coleslaw salata, yanında  patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 350, image: 'çıtır-tavuk-burger.jpg' },
 
   { productId: 204, categoryName: 'sıcak-içecekler', productName: 'Sıcak Çikolata', description: 'Yoğun kakao aromalı sıcak çikolata.', tooltip: 'Yeni', price: 180, image: 'sıcak-çikolata-sıcakiçecek.jpg' },
+  { productId: 204, categoryName: 'sıcak-içecekler', productName: 'Filtre Kahve', description: '', tooltip: 'Yeni', price: 130, image: 'nophoto.jpg' },
+
   { productId: 205, categoryName: 'sıcak-içecekler', productName: 'Sütlü Filtre Kahve', description: 'Yumuşak içimli sütlü filtre kahve.', tooltip: 'Yeni', price: 140, image: 'sütlü-filtre-kahve-sıcakiçecek.jpg' },
   { productId: 206, categoryName: 'sıcak-içecekler', productName: 'Türk Kahvesi (Az Şekerli)', description: 'Az şekerli geleneksel Türk kahvesi.', tooltip: 'Yeni', price: 120, image: 'türk-kahvesi-sıcakiçecek.jpg' },
   { productId: 207, categoryName: 'sıcak-içecekler', productName: 'Türk Kahvesi (Orta)', description: 'Orta şekerli geleneksel Türk kahvesi.', tooltip: 'Yeni', price: 120, image: 'türk-kahvesi-sıcakiçecek.jpg' },
   { productId: 208, categoryName: 'sıcak-içecekler', productName: 'Türk Kahvesi (Sade)', description: 'Şekersiz geleneksel Türk kahvesi.', tooltip: 'Yeni', price: 120, image: 'türk-kahvesi-sıcakiçecek.jpg' },
   { productId: 209, categoryName: 'sıcak-içecekler', productName: 'Türk Kahvesi (Şekerli)', description: 'Şekerli geleneksel Türk kahvesi.', tooltip: 'Yeni', price: 120, image: 'türk-kahvesi-sıcakiçecek.jpg' },
+  { productId: 209, categoryName: 'sıcak-içecekler', productName: 'Double Türk Kahvesi', description: 'Daha yoğun lezzet isteyenler için double Türk kahvesi.', tooltip: 'Yeni', price: 160, image: 'nophoto.jpg' },
 
   { productId: 210, categoryName: 'atıştırmalıklar', productName: 'Bonfrit', description: 'Kızarmış baharatlı parmak patatesler, dip sos ile servis edilir.', tooltip: 'Yeni', price: 180, image: 'patates-atıştırmalık.jpg' },
   { productId: 211, categoryName: 'atıştırmalıklar', productName: 'Çıtır Tavuk', description: 'Kızarmış paneli çıtır tavuk parçaları, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 230, image: 'çıtır-tavuk-atıştırmalık.jpg' },
