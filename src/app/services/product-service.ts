@@ -31,24 +31,28 @@ export class ProductService {
     { productId: 221, categoryName: 'special-sıcaklar', productName: 'Lavender Rose Latte', description: '', tooltip: 'Yeni', price: 170, image: 'lavander-rose-latte-specialsıcak.jpg' },
     { productId: 222, categoryName: 'special-sıcaklar', productName: 'Pecan Caramel Latte', description: '', tooltip: 'Yeni', price: 170, image: 'pecan-caramel-latte-specialsıcak.jpg' },
     { productId: 223, categoryName: 'special-sıcaklar', productName: 'Pumpkin Spice Latte', description: 'Baharatlı balkabağı aromasıyla sıcak ve karakterli içim.', tooltip: 'Yeni', price: 170, image: 'pumpkin-spice-latte-specialsıcak.jpg' },
+    { productId: 240, categoryName: 'special-sıcaklar', productName: 'Quattro Latte', description: '', tooltip: 'Yeni', price: 200, image: 'nophoto.jpg' },
 
-    { productId: 224, categoryName: 'soğuk-kahveler', productName: 'Cold Brew', description: '', tooltip: 'Yeni', price: 180, image: 'cold-brew-sogukkahve.jpg' },
-    { productId: 225, categoryName: 'soğuk-kahveler', productName: 'Frappe', description: '', tooltip: 'Yeni', price: 180, image: 'frappe-sogukkahve.jpg' },
+
+
+    { productId: 224, categoryName: 'soğuk-kahveler', productName: 'Cold Brew', description: '', tooltip: 'Yeni', price: 200, image: 'cold-brew-sogukkahve.jpg' },
+    { productId: 225, categoryName: 'soğuk-kahveler', productName: 'Frappe', description: '', tooltip: 'Yeni', price: 220, image: 'frappe-sogukkahve.jpg' },
     { productId: 226, categoryName: 'soğuk-kahveler', productName: 'Ice Americano', description: '', tooltip: 'Yeni', price: 170, image: 'cold-brew-sogukkahve.jpg' },
-    { productId: 227, categoryName: 'soğuk-kahveler', productName: 'Ice Butter Caramel Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-caramel-latte-sogukkahve.jpg' },
-    { productId: 228, categoryName: 'soğuk-kahveler', productName: 'Ice Caramel Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-caramel-latte-sogukkahve.jpg' },
-    { productId: 229, categoryName: 'soğuk-kahveler', productName: 'Ice Caramel Macchiato', description: '', tooltip: 'Yeni', price: 180, image: 'ice-caramel-latte-sogukkahve.jpg' },
-    { productId: 230, categoryName: 'soğuk-kahveler', productName: 'Ice Cookie Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-cookie-latte-sogukkahve.jpg' },
-    { productId: 231, categoryName: 'soğuk-kahveler', productName: 'Ice Flat White', description: '', tooltip: 'Yeni', price: 180, image: 'ice-flatwhite-sogukkahve.jpg' },
-    { productId: 232, categoryName: 'soğuk-kahveler', productName: 'Ice Hazelnut Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-hazelnut-latte-sogukkahve.jpg' },
-    { productId: 233, categoryName: 'soğuk-kahveler', productName: 'Ice Irish Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-irish-latte-sogukkahve.jpg' },
-    { productId: 234, categoryName: 'soğuk-kahveler', productName: 'Ice Latte', description: '', tooltip: 'Yeni', price: 170, image: 'ice-vanilya-latte-sogukkahve.jpg' },
-    { productId: 235, categoryName: 'soğuk-kahveler', productName: 'Ice Lotus Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-lotus-latte-sogukkahve.jpg' },
-    { productId: 236, categoryName: 'soğuk-kahveler', productName: 'Ice Mocha', description: '', tooltip: 'Yeni', price: 180, image: 'ice-mocha-sogukkahve.jpg' },
-    { productId: 237, categoryName: 'soğuk-kahveler', productName: 'Ice Salted Caramel Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-salted-caramel-latte-sogukkahve.jpg' },
-    { productId: 238, categoryName: 'soğuk-kahveler', productName: 'Ice Vanilya Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-vanilya-latte-sogukkahve.jpg' },
-    { productId: 239, categoryName: 'soğuk-kahveler', productName: 'Ice White Mocha', description: '', tooltip: 'Yeni', price: 180, image: 'ice-white-mocha-sogukkahve.jpg' },
-    { productId: 240, categoryName: 'soğuk-kahveler', productName: 'Quattro Affagato', description: '', tooltip: 'Yeni', price: 200, image: 'quattro-affagato-sogukkahve.jpg' },
+    { productId: 227, categoryName: 'soğuk-kahveler', productName: 'Ice Butter Caramel Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-caramel-latte-sogukkahve.jpg' },
+    { productId: 228, categoryName: 'soğuk-kahveler', productName: 'Ice Caramel Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-caramel-latte-sogukkahve.jpg' },
+    { productId: 229, categoryName: 'soğuk-kahveler', productName: 'Ice Caramel Macchiato', description: '', tooltip: 'Yeni', price: 200, image: 'ice-caramel-latte-sogukkahve.jpg' },
+    { productId: 230, categoryName: 'soğuk-kahveler', productName: 'Ice Cookie Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-cookie-latte-sogukkahve.jpg' },
+    { productId: 231, categoryName: 'soğuk-kahveler', productName: 'Ice Flat White', description: '', tooltip: 'Yeni', price: 190, image: 'ice-flatwhite-sogukkahve.jpg' },
+    { productId: 232, categoryName: 'soğuk-kahveler', productName: 'Ice Hazelnut Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-hazelnut-latte-sogukkahve.jpg' },
+    { productId: 233, categoryName: 'soğuk-kahveler', productName: 'Ice Irish Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-irish-latte-sogukkahve.jpg' },
+    { productId: 234, categoryName: 'soğuk-kahveler', productName: 'Ice Latte', description: '', tooltip: 'Yeni', price: 180, image: 'ice-vanilya-latte-sogukkahve.jpg' },
+    { productId: 235, categoryName: 'soğuk-kahveler', productName: 'Ice Lotus Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-lotus-latte-sogukkahve.jpg' },
+    { productId: 236, categoryName: 'soğuk-kahveler', productName: 'Ice Mocha', description: '', tooltip: 'Yeni', price: 200, image: 'ice-mocha-sogukkahve.jpg' },
+    { productId: 237, categoryName: 'soğuk-kahveler', productName: 'Ice Salted Caramel Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-salted-caramel-latte-sogukkahve.jpg' },
+    { productId: 238, categoryName: 'soğuk-kahveler', productName: 'Ice Vanilya Latte', description: '', tooltip: 'Yeni', price: 200, image: 'ice-vanilya-latte-sogukkahve.jpg' },
+    { productId: 239, categoryName: 'soğuk-kahveler', productName: 'Ice White Mocha', description: '', tooltip: 'Yeni', price: 200, image: 'ice-white-mocha-sogukkahve.jpg' },
+    { productId: 240, categoryName: 'soğuk-kahveler', productName: 'Quattro Affagato', description: '', tooltip: 'Yeni', price: 220, image: 'quattro-affagato-sogukkahve.jpg' },
+
 
     { productId: 241, categoryName: 'milkshakeler', productName: 'Çikolatalı Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çikolatalı-milkshake.jpg' },
     { productId: 242, categoryName: 'milkshakeler', productName: 'Çilekli Milkshake', description: '', tooltip: 'Yeni', price: 180, image: 'çilekli-milkshake.jpg' },
@@ -204,6 +208,10 @@ export class ProductService {
     { productId: 165, categoryName: 'ekstralar', productName: 'Lolipop', description: 'Tekli lolipop.', tooltip: 'Yeni', price: 30, image: 'lolipop-ekstralar.jpg' },
     { productId: 166, categoryName: 'ekstralar', productName: 'Mentos', description: 'Mentos şekerleme.', tooltip: 'Yeni', price: 50, image: 'mentos-ekstralar.jpg' },
     { productId: 168, categoryName: 'ekstralar', productName: 'Vividend Sakız', description: 'Vividend sakız.', tooltip: 'Yeni', price: 80, image: 'vivident-ekstralar.jpg' },
+    { productId: 168, categoryName: 'ekstralar', productName: 'Taşıma Çantası', description: 'Take away kahveler için taşıma çantası.', tooltip: 'Yeni', price: 10, image: 'nophoto.jpg' },
+    { productId: 168, categoryName: 'ekstralar', productName: 'Laktozsuz Süt', description: '', tooltip: 'Yeni', price: 25, image: 'nophoto.jpg' },
+
+
 
     { productId: 169, categoryName: 'dondurmalar', productName: '3 Top Dondurma', description: '3 top dondurma seçeneği.', tooltip: 'Yeni', price: 100, image: 'üçlü-dondurma.jpg' },
     { productId: 170, categoryName: 'dondurmalar', productName: 'Bal Badem Top', description: 'Bal badem aromalı 1 top.', tooltip: 'Yeni', price: 40, image: 'bal-badem-dondurma.jpg' },
@@ -237,12 +245,12 @@ export class ProductService {
 
 
 
-    { productId: 192, categoryName: 'special-soğuklar', productName: 'Ice Almond Latte', description: 'Buzlu badem aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-almondlatte-specialsoguk.jpg' },
-    { productId: 193, categoryName: 'special-soğuklar', productName: 'Ice Choco-Banana Latte', description: 'Buzlu çikolata-muz aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-choco-banana-latte-specialsoguk.jpg' },
-    { productId: 194, categoryName: 'special-soğuklar', productName: 'Ice Cocoster Latte', description: 'Buzlu hindistan cevizi aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-cocoster-specialsoguk.jpg' },
-    { productId: 195, categoryName: 'special-soğuklar', productName: 'Ice Lavender Rose Latte', description: 'Buzlu lavanta-gül aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-lavander-latte-specialsoguk.jpg' },
+    { productId: 192, categoryName: 'special-soğuklar', productName: 'Ice Almond Latte', description: 'Buzlu badem aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-almondlatte-specialsoguk.jpg' },
+    { productId: 193, categoryName: 'special-soğuklar', productName: 'Ice Choco-Banana Latte', description: 'Buzlu çikolata-muz aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-choco-banana-latte-specialsoguk.jpg' },
+    { productId: 194, categoryName: 'special-soğuklar', productName: 'Ice Cocoster Latte', description: 'Buzlu hindistan cevizi aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-cocoster-specialsoguk.jpg' },
     { productId: 196, categoryName: 'special-soğuklar', productName: 'Ice Pecan Caramel Latte', description: 'Buzlu pekan-karamel aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-pecan-caramel-specialsoguk.jpg' },
-    { productId: 197, categoryName: 'special-soğuklar', productName: 'Ice Pumpkin Spice Latte', description: 'Buzlu pumpkin spice latte.', tooltip: 'Yeni', price: 170, image: 'ice-pumpkin-spice-latte-specialsoguk.jpg' },
+    { productId: 197, categoryName: 'special-soğuklar', productName: 'Ice Pumpkin Spice Latte', description: 'Buzlu pumpkin spice latte.', tooltip: 'Yeni', price: 200, image: 'ice-pumpkin-spice-latte-specialsoguk.jpg' },
+    { productId: 240, categoryName: 'special-soğuklar', productName: 'Ice Quattro Latte', description: '', tooltip: 'Yeni', price: 220, image: 'nophoto.jpg' },
 
     { productId: 198, categoryName: 'pizzalar', productName: 'Karışık Pizza Menü', description: 'Karışık pizza menü seçeneği.', tooltip: 'Yeni', price: 250, image: 'cokyakında.jpg' },
 
