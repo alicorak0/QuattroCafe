@@ -265,13 +265,13 @@ export class ProductService {
     { productId: 192, categoryName: 'special-soğuklar', productName: 'Ice Almond Latte', description: 'Buzlu badem aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-almondlatte-specialsoguk.jpg' },
     { productId: 193, categoryName: 'special-soğuklar', productName: 'Ice Choco-Banana Latte', description: 'Buzlu çikolata-muz aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-choco-banana-latte-specialsoguk.jpg' },
     { productId: 194, categoryName: 'special-soğuklar', productName: 'Ice Cocoster Latte', description: 'Buzlu hindistan cevizi aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-cocoster-specialsoguk.jpg' },
-    { productId: 196, categoryName: 'special-soğuklar', productName: 'Ice Pecan Caramel Latte', description: 'Buzlu pekan-karamel aromalı latte.', tooltip: 'Yeni', price: 170, image: 'ice-pecan-caramel-specialsoguk.jpg' },
+    { productId: 196, categoryName: 'special-soğuklar', productName: 'Ice Pecan Caramel Latte', description: 'Buzlu pekan-karamel aromalı latte.', tooltip: 'Yeni', price: 220, image: 'ice-pecan-caramel-specialsoguk.jpg' },
     { productId: 197, categoryName: 'special-soğuklar', productName: 'Ice Pumpkin Spice Latte', description: 'Buzlu pumpkin spice latte.', tooltip: 'Yeni', price: 200, image: 'ice-pumpkin-spice-latte-specialsoguk.jpg' },
     { productId: 240, categoryName: 'special-soğuklar', productName: 'Ice Quattro Latte', description: '', tooltip: 'Yeni', price: 220, image: 'nophoto.jpg' },
 
     { productId: 198, categoryName: 'pizzalar', productName: 'Karışık Pizza Menü', description: 'Karışık pizza menü seçeneği.', tooltip: 'Yeni', price: 250, image: 'cokyakında.jpg' },
 
-    { productId: 199, categoryName: 'burgerler', productName: 'Tiftik Burger', description: 'Özel tiftik burger (fotoğraftaki ürün).', tooltip: 'Yeni', price: 0, image: 'cokyakında.jpg' },
+    { productId: 199, categoryName: 'burgerler', productName: 'Tiftik Burger', description: 'Özel tiftik burger (fotoğraftaki ürün).', tooltip: 'Yeni', price: 520, image: 'cokyakında.jpg' },
     { productId: 200, categoryName: 'burgerler', productName: 'Hawai Burger', description: 'Izgara burger köftesi,  özel soslu mushroom mantar, cheddar sos, karamelize soğan yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'hawai-burger.jpg' },
     { productId: 201, categoryName: 'burgerler', productName: 'Smash Burger', description: 'Double ızgara burger köftesi cheddar sos, karamelize soğan, yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 610, image: 'smash-burger.jpg' },
     { productId: 202, categoryName: 'burgerler', productName: 'Miami Burger', description: 'Izgara burger köftesi, karamelize soğan, mayonezli isli köz patlıcan, rosebeef dilimleri yanında patates cips ve dip sos ile servis edilir.', tooltip: 'En çok satan', price: 460, image: 'miami-burger.jpg' },
