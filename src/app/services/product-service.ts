@@ -120,7 +120,7 @@ export class ProductService {
     { productId: 299, categoryName: 'tatlılar', productName: 'Limon Cheesecake', description: 'Limonun ferahlığıyla hafif ve kremalı cheesecake.', tooltip: 'Yeni', price: 240, image: 'limon-cheesecake-tatlı.jpg' },
     { productId: 300, categoryName: 'tatlılar', productName: 'Lotus Cheesake', description: '', tooltip: 'Yeni', price: 240, image: 'lotus-cheesecake-tatlı.jpg' },
     { productId: 301, categoryName: 'tatlılar', productName: 'Lotus Cheesecake Mono', description: '', tooltip: 'Yeni', price: 240, image: 'lotus-cheesecake-mono-tatlı.jpg' },
-    { productId: 302, categoryName: 'tatlılar', productName: 'Çilekli Magnolia', description: '', tooltip: 'Yeni', price: 220, image: 'çilekli-magnolia-tatlı.jpg' },
+    { productId: 302, categoryName: 'tatlılar', productName: 'Çilekli Magnolia', description: '', tooltip: 'Yeni', price: 270, image: 'çilekli-magnolia-tatlı.jpg' },
     { productId: 303, categoryName: 'tatlılar', productName: 'Oreo Cheesecake', description: '', tooltip: 'Yeni', price: 240, image: 'oreo-cheesecake-tatlı.jpg' },
     { productId: 304, categoryName: 'tatlılar', productName: 'San Sebastian', description: 'Karamelize üst yüzeyiyle klasik San Sebastian cheesecake.', tooltip: 'Yeni', price: 240, image: 'san-sebastian-cheesecake-tatlı.jpg' },
     { productId: 306, categoryName: 'tatlılar', productName: 'Yaban Mersini Cheesecake', description: '', tooltip: 'Yeni', price: 240, image: 'yaban-mersini-cheesecake-tatlı.jpg' },
