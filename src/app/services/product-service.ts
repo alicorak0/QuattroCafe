@@ -112,6 +112,9 @@ export class ProductService {
     { productId: 293, categoryName: 'tatlılar', productName: 'Belçika Çikolatalı Pasta', description: 'Yoğun Belçika çikolatası ile zengin, yumuşak pasta dilimi.', tooltip: 'Yeni', price: 260, image: 'belçika-çikolatalı-tatlı.jpg' },
     { productId: 294, categoryName: 'tatlılar', productName: 'Bellavista', description: 'Kremamsı dokusu ve hafif tadıyla özel tatlı seçeneği.', tooltip: 'Yeni', price: 220, image: 'bellvista-tatlı.jpg' },
     { productId: 295, categoryName: 'tatlılar', productName: 'Red Velvet Pasta', description: '', tooltip: 'Yeni', price: 240, image: 'nophoto.jpg' },
+    { productId: 400, categoryName: 'tatlılar', productName: 'Havuçlu Tarçınlı Pasta', description: '', tooltip: 'Yeni', price: 240, image: 'nophoto.jpg' },
+
+
 
     { productId: 295, categoryName: 'tatlılar', productName: 'Devil Mono Pasta', description: 'Yoğun çikolata severlere özel, tek porsiyon mono pasta.', tooltip: 'Yeni', price: 280, image: 'devilmono-tatlı.jpg' },
     { productId: 296, categoryName: 'tatlılar', productName: 'Extra Callebaut', description: '', tooltip: 'Yeni', price: 80, image: 'extra-callebaut-tatlı.jpg' },
@@ -129,13 +132,13 @@ export class ProductService {
     { productId: 307, categoryName: 'tatlılar', productName: 'Ekler Porsiyon', description: '', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
 
     { productId: 307, categoryName: 'tatlılar', productName: 'Spangle', description: '', tooltip: 'Yeni', price: 250, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: 'Profiterol', description: '', tooltip: 'Yeni', price: 250, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: 'İzmir Bomba', description: '', tooltip: 'Yeni', price: 80, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: 'Ceviz Tarçın Çikolatalı Newyork Kurabiye', description: '', tooltip: 'Yeni', price: 120, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: '4-6 Kişilik Pasta', description: '', tooltip: 'Yeni', price: 700, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: 'Bademki Kavala Kurabiye Porsiyon', description: '', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: 'Frambuazlı Fındıklı Mini Tart Porsiyon', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
-                { productId: 307, categoryName: 'tatlılar', productName: 'Tadelle Kurabiye Porsiyon ', description: '', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: 'Profiterol', description: '', tooltip: 'Yeni', price: 250, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: 'İzmir Bomba', description: '', tooltip: 'Yeni', price: 80, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: 'Ceviz Tarçın Çikolatalı Newyork Kurabiye', description: '', tooltip: 'Yeni', price: 120, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: '4-6 Kişilik Pasta', description: '', tooltip: 'Yeni', price: 700, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: 'Bademki Kavala Kurabiye Porsiyon', description: '', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: 'Frambuazlı Fındıklı Mini Tart Porsiyon', description: '', tooltip: 'Yeni', price: 180, image: 'nophoto.jpg' },
+    { productId: 307, categoryName: 'tatlılar', productName: 'Tadelle Kurabiye Porsiyon ', description: '', tooltip: 'Yeni', price: 150, image: 'nophoto.jpg' },
 
 
 
@@ -291,7 +294,7 @@ export class ProductService {
 
 
     { productId: 210, categoryName: 'atıştırmalıklar', productName: 'Bonfrit', description: 'Kızarmış baharatlı parmak patatesler, dip sos ile servis edilir.', tooltip: 'Yeni', price: 180, image: 'patates-atıştırmalık.jpg' },
-    { productId: 211, categoryName: 'atıştırmalıklar', productName: 'Çıtır Tavuk', description: 'Kızarmış paneli çıtır tavuk parçaları, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 230, image: 'çıtır-tavuk-atıştırmalık.jpg' },
+    { productId: 211, categoryName: 'atıştırmalıklar', productName: 'Çıtır Tavuk', description: 'Kızarmış paneli çıtır tavuk parçaları, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 330, image: 'çıtır-tavuk-atıştırmalık.jpg' },
     { productId: 212, categoryName: 'atıştırmalıklar', productName: 'Karışık Sepet', description: 'Sigara böreği, sosis, soğan halkası, çıtır tavuk, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 390, image: 'karışık-sepet-atıştırmalık.jpg' },
     { productId: 213, categoryName: 'atıştırmalıklar', productName: 'Sigara Böreği', description: 'Kızarmış sigara börekleri, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 220, image: 'sigara-böreği-atıştırmalık.jpg' },
     { productId: 214, categoryName: 'atıştırmalıklar', productName: 'Soğan Halkası', description: 'Panelenmiş çıtır soğan, patates cips ve dip sos ile servis edilir.', tooltip: 'Yeni', price: 220, image: 'soğan-halkası-atıştırmalık.jpg' }
