@@ -1,31 +1,19 @@
-import { Component } from '@angular/core';
-import { HeaderComponent } from '../../components/header-component/header-component';
-import { FooterComponent } from "../../components/footer-component/footer-component";
-import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
-import { filter } from 'rxjs/operators';
 import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { Router, RouterOutlet } from '@angular/router';
+import { HeaderComponent } from '../../component/header-component/header-component';
+import { FooterComponent } from '../../component/footer-component/footer-component';
 
 @Component({
   selector: 'app-main-layout-component',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent,CommonModule],
+  imports: [CommonModule, HeaderComponent, RouterOutlet, FooterComponent],
   templateUrl: './main-layout-component.html',
   styleUrl: './main-layout-component.css',
 })
 export class MainLayoutComponent {
+  protected readonly router = inject(Router);
 
-  showHeader = true;
-
-  constructor(private router: Router) {
-
-    this.router.events
-      .pipe(filter(e => e instanceof NavigationEnd))
-      .subscribe(() => {
-
-        // 🔥 MENÜDEYSE header kapat
-        this.showHeader = !this.router.url.startsWith('/menu');
-        this.showHeader = !this.router.url.startsWith('/contact');
-
-      });
+  protected get shouldShowHeader(): boolean {
+    return !this.router.url.startsWith('/menu');
   }
-  
 }

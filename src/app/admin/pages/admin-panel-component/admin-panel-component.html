@@ -1,0 +1,58 @@
+<main class="admin-shell">
+    <header class="admin-header">
+        <div class="header-left">
+            <img src="assets/images/Quattro-logo.png" alt="Quattro Cafe logo">
+            <div class="brand-copy">
+                <span class="brand-title">Quattro Cafe Admin</span>
+                <span class="brand-subtitle">Menü yönetim paneli</span>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <button class="menu-toggle" aria-label="Toggle menu" (click)="toggleSidebar()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="user-div">
+                <i class="fa-solid fa-user"></i>
+                <span class="user-id">{{ currentUser?.fullName || 'Yükleniyor...' }}</span>
+            </div>
+
+            <button type="button" class="log-out" (click)="logout()" aria-label="Çıkış yap">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="admin-body">
+        <aside class="sidebar" [class.open]="isSidebarOpen" (mouseenter)="openSidebar()" (mouseleave)="closeSidebar()">
+            <div class="menu-title" *ngIf="isSidebarOpen">Yönetim</div>
+
+            <ul class="menu-list">
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['category-add']" (click)="closeSidebar()">
+                    <i class="fa-solid fa-folder-plus"></i>
+                    <span *ngIf="isSidebarOpen">Kategori Ekle</span>
+                </li>
+
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['category-settings']" (click)="closeSidebar()">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <span *ngIf="isSidebarOpen">Kategori Düzenle</span>
+                </li>
+
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['product-add']" (click)="closeSidebar()">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <span *ngIf="isSidebarOpen">Ürün Ekle</span>
+                </li>
+
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [routerLink]="['product-settings']" (click)="closeSidebar()">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span *ngIf="isSidebarOpen">Ürün Düzenle</span>
+                </li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <router-outlet></router-outlet>
+        </section>
+    </div>
+</main>

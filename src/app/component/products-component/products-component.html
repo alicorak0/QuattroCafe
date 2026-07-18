@@ -1,0 +1,89 @@
+<div class="menu-wrapper">
+  <div class="menu-sidebar-column">
+    <app-product-search-component [allCategories]="allCategories"></app-product-search-component>
+
+    <aside class="sidebar">
+      <ul>
+        <li *ngFor="let cat of allCategories">
+          <button
+            [routerLink]="['/menu/', slugify(cat.categoryName)]"
+            class="sidebar-btn"
+            [class.active]="activeKey === slugify(cat.categoryName)">
+            {{ cat.categoryName }}
+          </button>
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <main class="menu-main menu-content">
+    <div class="category-title">
+      <h2>{{ currentTitle }}</h2>
+    </div>
+
+    <div class="products-grid">
+      <div class="product-card" *ngFor="let product of products">
+          <img [src]="asset.getProduct(product.image)" alt="{{ product.image }}" loading="lazy">
+        <h3 class="product-title">{{ product.productName }}</h3>
+        <p class="product-description">{{ product.description }}</p>
+        <div class="product-footer">
+          <span class="product-price">₺{{ product.price }}</span>
+          <button type="button" class="product-detail-btn" (click)="openProductTooltip(product)">Ürün Bilgisi</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="tooltip-overlay" *ngIf="selectedProduct" (click)="closeProductTooltip()">
+  <div class="tooltip-card" (click)="$event.stopPropagation()" *ngIf="selectedProduct">
+    <div class="tooltip-header">
+      <button type="button" class="tooltip-close" (click)="closeProductTooltip()">✕</button>
+      <h3>{{ selectedProduct.productName }}</h3>
+      <p>Ürün Bilgileri</p>
+    </div>
+
+    <div class="tooltip-body">
+      <div class="tooltip-section">
+        <h4>Fiyat</h4>
+        <div class="tooltip-price">₺{{ selectedProduct.price }}</div>
+      </div>
+
+      <div class="tooltip-image-wrap">
+        <img [src]="asset.getProduct(selectedProduct.image)" [alt]="selectedProduct.productName" loading="lazy" />
+      </div>
+
+      <div class="tooltip-section">
+        <h4>Açıklama</h4>
+        <p>{{ selectedProduct.description || 'Açıklama bilgisi yok.' }}</p>
+      </div>
+
+      <div class="tooltip-section">
+        <h4>İçerikler</h4>
+        <ul *ngIf="selectedProduct.ingredientNames?.length; else noIngredients">
+          <li *ngFor="let ingredient of selectedProduct.ingredientNames">{{ ingredient }}</li>
+        </ul>
+        <ng-template #noIngredients>
+          <p>İçerik bilgisi yok.</p>
+        </ng-template>
+      </div>
+
+      <div class="tooltip-section">
+        <h4>Alerjen Bilgileri</h4>
+        <div class="tooltip-allergen-list" *ngIf="selectedProduct.allergens?.length; else noAllergens">
+          <div class="tooltip-allergen-item" *ngFor="let allergen of selectedProduct.allergens" [ngClass]="getAllergenBadgeClass(allergen.name)">
+            <img [src]="asset.getAllergenIcon(allergen.icon)" [alt]="allergen.name" />
+            <span>{{ allergen.name }}</span>
+          </div>
+        </div>
+        <ng-template #noAllergens>
+          <p>Alerjen bilgisi yok.</p>
+        </ng-template>
+      </div>
+
+      <div class="tooltip-footer">
+        <button type="button" (click)="closeProductTooltip()">Kapat</button>
+      </div>
+    </div>
+  </div>
+</div>

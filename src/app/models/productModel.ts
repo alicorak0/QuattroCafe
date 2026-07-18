@@ -1,9 +1,14 @@
+import { Allergen } from './allergenModel';
+
 export interface Product {
   productId: number;
-  categoryName: string;
+  categoryId: number;
   productName: string;
-  description: string;
-  tooltip: string;
+  description?: string | null;
+  tooltip?: string | null;
   price: number;
-  image: string;
+  image?: string | null;
+  isFeatured: boolean;
+  ingredientNames: string[];
+  allergens: Allergen[];
 }
