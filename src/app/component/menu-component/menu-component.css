@@ -1,5 +1,9 @@
 :host {
   display: block;
+  --shared-header-logo-width: 100px;
+  --shared-header-logo-width-mobile: 80px;
+  --shared-header-padding-y: 5px;
+  --shared-header-padding-x: 20px;
   background:
     radial-gradient(circle at top right, rgba(17, 17, 17, 0.05), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, #f6f6f6 35%, #ffffff 100%);
@@ -18,9 +22,9 @@ body {
 
 .container {
   width: 100%;
-  min-height: 6.1rem;
   margin: 0 auto;
-  padding: 1rem clamp(1.25rem, 4vw, 4.5rem);
+  max-width: 1200px;
+  padding: 0 clamp(var(--shared-header-padding-x), 4vw, 30px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +33,7 @@ body {
 }
 
 .header {
-  padding: 0;
+  padding: var(--shared-header-padding-y) 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -49,7 +53,7 @@ body {
 }
 
 .brand-logo {
-  width: 92px;
+  width: var(--shared-header-logo-width);
   height: auto;
   display: block;
 }
@@ -80,18 +84,12 @@ body {
 }
 
 
-
-
-
-
-/* SLÃ„Â°DER */
-
 .popular-slider {
   width: 100%;
   overflow-x: scroll;
   padding: 28px 0;
-  margin-top: 102px;
-  background: linear-gradient(180deg, #ffffff 0%, #f4f4f4 100%);
+  margin-top: 88px;
+  background: #f9f9f9;
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
@@ -125,9 +123,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.98), rgba(43, 12, 15, 0.94));
-  border: 1px solid rgba(179, 24, 35, 0.2);
-  border-radius: 18px;
+  background: #fff;
+  border-radius: 10px;
+  border: #000000;
   padding: 10px;
   box-shadow: 0 20px 44px rgba(0, 0, 0, 0.18);
   overflow: hidden;
@@ -156,13 +154,13 @@ body {
   margin-top: 15px;
   font-size: 25px;
   text-align: center;
-  color: #fff7ec;
+  color: #000000;
 }
 
 .product-info .description {
   margin-top: 0px;
   font-size: 13px;
-  color: rgba(255, 247, 236, 0.78);
+  color: #555;
   text-align: center;
   overflow: hidden;
   line-clamp: 4;
@@ -176,7 +174,7 @@ body {
   white-space: nowrap;
   font-size: 20px;
   font-weight: bold;
-  color: #f5d98a;
+  color: #c8a46b;
 }
 
 /* Tablet (600px - 900px) Ã¢â€ â€™ 2 sÃƒÂ¼tun */
@@ -221,22 +219,22 @@ body {
 
   .product-info h4 {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
   }
 
   .product-info .description {
     margin-top: 4px;
-    font-size: 9px;
+    font-size: 10px;
     line-clamp: 3;
     -webkit-line-clamp: 3;
   }
 
   .product-info .price {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
-    color: #f5d98a;
+    color:  #c8a46b;
   }
 }
 
@@ -294,9 +292,9 @@ body {
   /* hEADER */
   .container {
     width: 100%;
-    min-height: 6.1rem;
     margin: 0 auto;
-    padding: 0.9rem 1rem;
+    max-width: 1200px;
+    padding: 0 var(--shared-header-padding-x);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -304,7 +302,7 @@ body {
   }
 
   .header {
-    padding: 5px 5px;
+    padding: var(--shared-header-padding-y) 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -316,7 +314,7 @@ body {
   }
 
   .brand-logo {
-    width: 84px;
+    width: var(--shared-header-logo-width-mobile);
   }
 
   .menu-text {
@@ -342,7 +340,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     padding: 20px 0;
-    margin-top: 94px;
+    margin-top: 76px;
     scrollbar-width: none;
   }
 
@@ -406,6 +404,6 @@ body {
     margin-top: 3px;
     font-size: 18px;
     font-weight: 600;
-    color: #f5d98a;
+    color:  #c8a46b;
   }
 }

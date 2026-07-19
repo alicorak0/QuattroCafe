@@ -19,6 +19,7 @@
   margin-top: 50px;
 }
 
+
 /* Kart stili */
 .category-card {
   position: relative;
@@ -29,17 +30,18 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  border: 1px solid rgba(179, 24, 35, 0.24);
-  border-radius: 14px;
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.98), rgba(43, 12, 15, 0.94));
+  border: 2px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
   box-shadow: 0 18px 36px rgba(0, 0, 0, 0.14);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .category-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(179, 24, 35, 0.5);
+  border-color: #c8a46b;
   box-shadow: 0 22px 42px rgba(0, 0, 0, 0.2);
+  background-color: #000000;
 }
 
 .category-card img {
@@ -56,7 +58,7 @@
   margin: 0;
   font-weight: 700;
   font-size: 25px;
-  color: #fff7ec;
+  color: #c8a46b;
   text-align: center;
   z-index: 2;
   letter-spacing: 0.8px;
@@ -98,7 +100,7 @@
     margin: 0;
     font-weight: 650;
     font-size: 20px;
-    color: #fff7ec;
+    color: #c8a46b;
     text-align: center;
   }
 }
