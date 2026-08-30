@@ -18,7 +18,7 @@ import {
   now,
   setCSSProperty,
   setInnerHTML
-} from "./chunk-35CEW3PY.js";
+} from "./chunk-XRMVAW54.js";
 import "./chunk-J25FJFZE.js";
 
 // node_modules/swiper/modules/virtual.mjs
