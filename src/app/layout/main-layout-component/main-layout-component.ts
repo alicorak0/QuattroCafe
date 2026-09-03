@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
-import { Router, RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from '../../component/header-component/header-component';
 import { FooterComponent } from '../../component/footer-component/footer-component';
 
@@ -11,9 +11,4 @@ import { FooterComponent } from '../../component/footer-component/footer-compone
   styleUrl: './main-layout-component.css',
 })
 export class MainLayoutComponent {
-  protected readonly router = inject(Router);
-
-  protected get shouldShowHeader(): boolean {
-    return !this.router.url.startsWith('/menu');
-  }
 }

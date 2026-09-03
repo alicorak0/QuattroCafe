@@ -1,25 +1,3 @@
-@import '@fortawesome/fontawesome-free/css/all.min.css';
-@import 'bootstrap/dist/css/bootstrap.min.css';
-@import 'ngx-toastr/toastr';
-
-:root {
-    --bs-border-radius: 10px;
-    --bs-border-radius-sm: 10px;
-    --bs-border-radius-lg: 10px;
-    --bs-border-radius-xl: 10px;
-    --bs-border-radius-xxl: 10px;
-    --bs-border-radius-2xl: 10px;
-    --bs-border-radius-pill: 10px;
-    --fa-border-radius: 10px;
-    --fa-counter-border-radius: 10px;
-}
-
-.toast-container .ngx-toastr,
-.toast-container .ngx-toastr.toast,
-.toast-container .toast {
-    border-radius: 10px !important;
-}
-
 html,
 body {
     min-height: 100%;
